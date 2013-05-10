@@ -6,9 +6,4 @@
 				ax^2 + bx + c = 0
 			\end{equation}
 			where \( a, b \) and \( c \) are constants and \( a \neq 0 \).
-			\begin{wrapfigure}{r}{0.4\textheight}
-		\includegraphics[width = 0.4\textheight]{Rozdzial_1/Hall_effect.png}
-		\caption{Klasyczny efekt halla}
-		\label{klasyczny_hall}
-	\end{wrapfigure}
 \lipsum
