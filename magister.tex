@@ -1,0 +1,20 @@
+\documentclass[12pt]{book}
+\input{./Preambula/preamble}
+
+\begin{document}
+	\input{./Strona_tytulowa/title}
+	\frontmatter
+		\include{./Dedykacja/dedication}
+		\tableofcontents
+	\mainmatter		
+		\include{./Rozdzial_1/chapter1}
+		\include{./Rozdzial_2/chapter2}
+	\backmatter
+		\include{./Proofs/proofs}
+		\nocite{*}
+		\listoftables
+		\listoffigures
+		\bibliographystyle{plainnat}
+		\bibliography{./Bibliografia/tex}
+\end{document}
+
