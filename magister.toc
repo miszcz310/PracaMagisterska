@@ -5,15 +5,15 @@
 \contentsline {chapter}{\numberline {1}Tranzystor fet z kana\IeC {\l }em grafenowym}{1}
 \contentsline {section}{\numberline {1.1}Zasada dzia\IeC {\l }ania}{1}
 \contentsline {section}{\numberline {1.2}Grafen i jego w\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci}{1}
-\contentsline {section}{\numberline {1.3}Tranzystor polowy z kana\IeC {\l }em grafenowym}{1}
-\contentsline {chapter}{\numberline {2}Badania strukturalne grafenu}{2}
-\contentsline {section}{\numberline {2.1}Spekroskopia Ramana}{2}
-\contentsline {section}{\numberline {2.2}AFM}{3}
-\contentsline {chapter}{\numberline {3}Pomiary elektryczne}{6}
-\contentsline {section}{\numberline {3.1}Uk\IeC {\l }ad eksperymentalny}{8}
-\contentsline {section}{\numberline {3.2}Charakterystyki przej\IeC {\'s}ciowe}{8}
-\contentsline {section}{\numberline {3.3}Wygrzewanie pr\IeC {\k a}dowe}{8}
-\contentsline {chapter}{\numberline {4}Podsumowanie}{10}
-\contentsline {chapter}{Spis tablic}{12}
-\contentsline {chapter}{Spis rysunk\'ow}{13}
-\contentsline {chapter}{Bibliografia}{14}
+\contentsline {section}{\numberline {1.3}Tranzystor polowy z kana\IeC {\l }em grafenowym}{2}
+\contentsline {chapter}{\numberline {2}Badania strukturalne grafenu}{3}
+\contentsline {section}{\numberline {2.1}Spekroskopia Ramana}{3}
+\contentsline {section}{\numberline {2.2}AFM}{4}
+\contentsline {chapter}{\numberline {3}Pomiary elektryczne}{7}
+\contentsline {section}{\numberline {3.1}Uk\IeC {\l }ad eksperymentalny}{9}
+\contentsline {section}{\numberline {3.2}Charakterystyki przej\IeC {\'s}ciowe}{9}
+\contentsline {section}{\numberline {3.3}Wygrzewanie pr\IeC {\k a}dowe}{9}
+\contentsline {chapter}{\numberline {4}Podsumowanie}{11}
+\contentsline {chapter}{Spis tablic}{13}
+\contentsline {chapter}{Spis rysunk\'ow}{14}
+\contentsline {chapter}{Bibliografia}{15}

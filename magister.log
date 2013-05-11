@@ -1,11 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  11 MAY 2013 14:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.5.6)  11 MAY 2013 15:20
 entering extended mode
  %&-line parsing enabled.
-**magister.tex
-(./magister.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, polish, loaded.
+**\nonstopmode \input{"/home/krzysztof/Desktop/GIT_MAGISTER/magister.tex"}
+(/home/krzysztof/Desktop/GIT_MAGISTER/magister.tex
 (/usr/share/texmf-texlive/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/bk12.clo
@@ -411,7 +408,7 @@ Package: geometry 2008/12/21 v4.2 Page Geometry
 
 (/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode not detected.
+Package ifpdf Info: pdfTeX in pdf mode detected.
 )
 (/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
@@ -467,25 +464,12 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-
-
-! Package pdftex.def Error: PDF mode expected, but DVI mode detected!
-(pdftex.def)                If you are using `latex', then call `pdflatex'.
-(pdftex.def)                Otherwise check and correct the driver options.
-(pdftex.def)                Error recovery by switching to PDF mode.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.414     }\@ehc
-                
-? 
 \Gread@gobject=\count120
 ))
 \Gin@req@height=\dimen122
 \Gin@req@width=\dimen123
-) (/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
+)
+(/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
 
 Package: `setspace' 6.7 <2000/12/01>
@@ -507,10 +491,11 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip57
 \pxx=\skip58
 \backskip=\skip59
-)) (./magister.aux
-(./Dedykacja/dedication.aux) (./Rozdzial_1/chapter1.aux)
-(./Rozdzial_2/chapter2.aux) (./Rozdzial_3/chapter3.aux)
-(./Rozdzial_4/chapter4.aux) (./Rozdzial_5/chapter5.aux))
+))
+(/home/krzysztof/Desktop/GIT_MAGISTER/magister.aux (./Dedykacja/dedication.aux)
+(./Rozdzial_1/chapter1.aux) (./Rozdzial_2/chapter2.aux)
+(./Rozdzial_3/chapter3.aux) (./Rozdzial_4/chapter4.aux)
+(./Rozdzial_5/chapter5.aux))
 \openout1 = `magister.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -526,15 +511,16 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 4.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Info: Redefining \microtypecontext on input line 4.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: No font expansion.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -544,7 +530,7 @@ File: mt-cmr.cfg 2008/02/29 v1.9a microtype config. file: Computer Modern Roman
  (RS)
 )
 *geometry auto-detecting driver*
-*geometry detected driver: dvips*
+*geometry detected driver: pdftex*
 -------------------- Geometry parameters
 paper: a4paper
 landscape: --
@@ -562,7 +548,7 @@ truedimen: --
 includehead: --
 includefoot: --
 includemp: --
-driver: dvips
+driver: pdftex
 -------------------- Page layout dimensions and switches
 \paperwidth  597.50787pt
 \paperheight 845.04684pt
@@ -649,7 +635,6 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/14.4'.
 (microtype)             Ignoring protrusion settings for this character.
 [1
-Non-PDF special ignored!
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Strona_tytulowa/obrazki/
@@ -661,7 +646,8 @@ logopw.jpg> <./Strona_tytulowa/obrazki/logofiz.jpg>])
 
 
 
-] (./magister.toc)
+]
+(/home/krzysztof/Desktop/GIT_MAGISTER/magister.toc)
 \tf@toc=\write3
 \openout3 = `magister.toc'.
 
@@ -684,9 +670,12 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (1.00417pt too wide) in paragraph at lines 8--11
-\T1/lmr/m/n/12 wi¡zania->struktura sieci->pasma->ruchliwo±¢->koncentracja->wpªy
-w od-dzia-ªy-wa-
+<./Rozdzial_2/obrazki/Lateral_mosfet.png, id=21, 602.25pt x 361.35pt>
+File: ./Rozdzial_2/obrazki/Lateral_mosfet.png Graphic file (type png)
+
+<use ./Rozdzial_2/obrazki/Lateral_mosfet.png>
+Overfull \hbox (34.7302pt too wide) in paragraph at lines 27--30
+\T1/lmr/m/n/12 (-20) wi¡zania->struktura sieci->pasma->ruchliwo±¢-
  []
 
 ) [1
@@ -694,70 +683,74 @@ w od-dzia-ªy-wa-
 
 
 
-]
+ <./Rozdzial_2/obrazki/Lateral_mosfet.png (PNG copy)>] [2]
 \openout2 = `./Rozdzial_3/chapter3.aux'.
 
- (./Rozdzial_3/chapter3.tex
+
+(./Rozdzial_3/chapter3.tex
 Rozdzia\l  2.
-[2
+[3
 
 
 
-]) [3] [4] [5]
+]) [4] [5] [6]
 \openout2 = `./Rozdzial_4/chapter4.aux'.
 
  (./Rozdzial_4/chapter4.tex
 Rozdzia\l  3.
-[6
+[7
 
 
 
-] [7] [8]) [9]
+] [8] [9]) [10]
 \openout2 = `./Rozdzial_5/chapter5.aux'.
 
  (./Rozdzial_5/chapter5.tex
 Rozdzia\l  4.
-) [10
+) [11
 
 
 
-] [11] (./magister.lot)
+] [12] (/home/krzysztof/Desktop/GIT_MAGISTER/magister.lot)
 \tf@lot=\write4
 \openout4 = `magister.lot'.
 
- [12
+ [13
 
 
 
-] (./magister.lof)
+]
+(/home/krzysztof/Desktop/GIT_MAGISTER/magister.lof)
 \tf@lof=\write5
 \openout5 = `magister.lof'.
 
- (./magister.bbl [13
 
-])
-[14
+(/home/krzysztof/Desktop/GIT_MAGISTER/magister.bbl [14
 
-] (./magister.aux (./Dedykacja/dedication.aux) (./Rozdzial_1/chapter1.aux)
-(./Rozdzial_2/chapter2.aux) (./Rozdzial_3/chapter3.aux)
-(./Rozdzial_4/chapter4.aux) (./Rozdzial_5/chapter5.aux)) ) 
+]) [15
+
+]
+(/home/krzysztof/Desktop/GIT_MAGISTER/magister.aux (./Dedykacja/dedication.aux)
+(./Rozdzial_1/chapter1.aux) (./Rozdzial_2/chapter2.aux)
+(./Rozdzial_3/chapter3.aux) (./Rozdzial_4/chapter4.aux)
+(./Rozdzial_5/chapter5.aux)) ) 
 Here is how much of TeX's memory you used:
- 5281 strings out of 495027
- 74153 string characters out of 1181826
- 259619 words of memory out of 3000000
- 8300 multiletter control sequences out of 15000+50000
- 60322 words of font info for 41 fonts, out of 3000000 for 9000
+ 5360 strings out of 495026
+ 75721 string characters out of 1181803
+ 259868 words of memory out of 3000000
+ 8306 multiletter control sequences out of 15000+50000
+ 63715 words of font info for 76 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
- 35i,12n,35p,252b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fon
-ts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb>
-Output written on magister.pdf (18 pages, 708101 bytes).
+ 36i,12n,35p,312b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</
+usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmss17.pfb>
+Output written on magister.pdf (19 pages, 730835 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 9227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 19984 words of extra memory for PDF output out of 20736 (max. 10000000)
 
