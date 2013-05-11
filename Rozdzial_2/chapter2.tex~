@@ -1,6 +1,15 @@
-\chapter{Equation Systems}
-\section{Linear Systems}
-...
-\section{Non-linear Systems}
-...
-\lipsum
+\chapter{Tranzystor fet z kanałem grafenowym}
+{Tutaj napisać o historii i idei}
+	\section{Zasada działania}
+Tutaj opis dla typowego mosa, wraz z opisami stanów w jakich może się znajdować
+półprzewodnik kanału.	
+	
+	\section{Grafen i jego właściwości}
+	wiązania->struktura sieci->pasma->ruchliwość->koncentracja->wpływ oddziaływania
+z podłożem na powyższe właściwości->wpływ domieszkowania na strukturę pasmową->
+wpływ środowiska
+
+	\section{Tranzystor polowy z kanałem grafenowym}
+	
+	charakterystyki elektryczne dla różnych konfiguracji i ich omówienie.
+	Brak podziału na 3 obszary pracy kanału. Tylko jeden zawsze.

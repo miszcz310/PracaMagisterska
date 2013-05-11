@@ -1,4 +1,4 @@
-\documentclass[12pt]{book}
+\documentclass[12pt,oneside]{book}
 \input{./Preambula/preamble}
 
 \begin{document}
@@ -6,12 +6,16 @@
 	\frontmatter
 		\include{./Dedykacja/dedication}
 		\tableofcontents
+		\include{./Rozdzial_1/chapter1}
 	\mainmatter		
 		A teraz sobie zmienimy z innego folderu a co tam.
-		\include{./Rozdzial_1/chapter1}
+		
 		\include{./Rozdzial_2/chapter2}
+		\include{./Rozdzial_3/chapter3}
+		\include{./Rozdzial_4/chapter4}
+		\include{./Rozdzial_5/chapter5}
 	\backmatter
-		\include{./Proofs/proofs}
+		%\include{./Proofs/proofs}
 		\nocite{*}
 		\listoftables
 		\listoffigures
