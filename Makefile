@@ -173,7 +173,7 @@ html	: @$(DEP) $(EPSPICS)
 
 
 archive:
-	tar -jcvf ~/Dropbox/Magister/Magisterka_$(shell date --iso=seconds).tar.bz2 ../PracaMagisterska
+	tar -jcvf ~/Dropbox/Magister/Magisterka_$(shell date --iso=seconds).tar.bz2 .
 
 git:
 	git add .
