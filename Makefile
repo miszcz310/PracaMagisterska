@@ -122,7 +122,7 @@ include $(SRC:.tex=.d)
 
 # $(DEP) $(EPSPICS) $(BIBFILE)
 $(TRG)	: %.dvi : %.tex
-	  @$(run-latex)
+	  @$(run-latex) #tutaj było run-latex
 
 $(PSF)	: %.ps : %.dvi
 	  @$(DVIPS) $< -o $@

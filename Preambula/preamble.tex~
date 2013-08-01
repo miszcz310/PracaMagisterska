@@ -15,9 +15,14 @@
 %\pagestyle{fancy}
 \usepackage[onehalfspacing]{setspace}
 \usepackage{wrapfig}
+\usepackage{indentfirst}	%pierwsze wciącie dla pierwszego akapitu
 
 %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
 \usepackage[Glenn]{fncychap}	%ładne nagłówki rozdziałów
 
+
 \renewcommand{\rmdefault}{phv} % Arial
-%\renewcommand{\sfdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+\usepackage[cm]{sfmath}
+%\setmathsf{Arial}
+%\setmathtt{Arial}

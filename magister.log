@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  31 JUL 2013 19:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  1 AUG 2013 16:49
 entering extended mode
  %&-line parsing enabled.
 **magister.tex
@@ -480,12 +480,6 @@ Type  H <return>  for immediate help.
                                                   
 l.414     }\@ehc
                 
-? ^^[[6~
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
 ? 
 \Gread@gobject=\count120
 ))
@@ -503,6 +497,9 @@ Package: `setspace' 6.7 <2000/12/01>
 \WF@everypar=\toks30
 Package: wrapfig 2003/01/31  v 3.6
 )
+(/usr/share/texmf-texlive/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 (/usr/share/texmf-texlive/tex/latex/fncychap/fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip52
@@ -513,7 +510,72 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip57
 \pxx=\skip58
 \backskip=\skip59
-)) (./magister.aux
+))
+(/usr/share/texmf-texlive/tex/latex/sfmath/sfmath.sty
+Package: sfmath 2007/08/27 v0.8 sans serif maths
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 329.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 330.
+\symSFMath=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `normal'
+(Font)                  OT1/cmss/m/sl --> OT1/cmss/m/sl on input line 343.
+LaTeX Font Info:    Overwriting symbol font `SFMath' in version `bold'
+(Font)                  OT1/cmss/m/sl --> OT1/cmss/bx/n on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \imath on input line 398.
+LaTeX Font Info:    Redeclaring math symbol \jmath on input line 399.
+\symSFMathUp=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 406.
+LaTeX Font Info:    Overwriting symbol font `SFMathUp' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \ldotp on input line 410.
+\symSFMathGreek=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 419.
+LaTeX Font Info:    Overwriting symbol font `SFMathGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 420.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 422.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 423.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 424.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 425.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 426.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 427.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 428.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 429.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 430.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
+\symSFMathUpGreek=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
+
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
+LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
+
+(Font)                  OML/lmm/m/it --> OT1/cmss/m/sl on input line 446.
+LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
+(Font)                  OML/lmm/b/it --> OT1/cmss/bx/n on input line 447.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 449.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 450.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 452.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 453.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> OT1/cmss/m/sl on input line 455.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> OT1/cmss/m/sl on input line 456.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> OT1/cmss/m/n on input line 458.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> OT1/cmss/bx/n on input line 459.
+LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
+(Font)                  OT1/cmss/m/sl --> OT1/cmss/m/sl on input line 466.
+) (./magister.aux
 (./Dedykacja/dedication.aux) (./Rozdzial_1/chapter1.aux)
 (./Rozdzial_2/chapter2.aux) (./Rozdzial_3/chapter3.aux)
 (./Rozdzial_4/chapter4.aux) (./Rozdzial_5/chapter5.aux))
@@ -599,17 +661,8 @@ driver: dvips
 \MPnumerator=\count126
 \everyMPtoPDFconversion=\toks32
 ) (./Strona_tytulowa/title.tex
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 4.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-(/usr/share/texmf-texlive/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2008/02/29 v1.9a microtype config. file: Computer Modern Roman
- (RS)
-)
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 4.
@@ -680,23 +733,41 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 
  (./Rozdzial_2/chapter2.tex
 Rozdzia\l  1.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
-(/usr/share/texmf/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 6.
+[1
+
+
+
+
+] <./Rozdzial_2/obrazki/Siec_grafen.jpg, id=25, 417.81094pt x 420.06938pt>
+File: ./Rozdzial_2/obrazki/Siec_grafen.jpg Graphic file (type jpg)
+
+<use ./Rozdzial_2/obrazki/Siec_grafen.jpg> [2 <./Rozdzial_2/obrazki/Siec_grafen
+.jpg>]
+<./Rozdzial_2/obrazki/Siec_odwrotna.jpg, id=33, 441.90094pt x 441.90094pt>
+File: ./Rozdzial_2/obrazki/Siec_odwrotna.jpg Graphic file (type jpg)
+
+<use ./Rozdzial_2/obrazki/Siec_odwrotna.jpg> [3 <./Rozdzial_2/obrazki/Siec_odwr
+otna.jpg>]
+<./Rozdzial_2/obrazki/Struktura_pasmowa.jpg, id=42, 813.0375pt x 423.83344pt>
+File: ./Rozdzial_2/obrazki/Struktura_pasmowa.jpg Graphic file (type jpg)
+
+<use ./Rozdzial_2/obrazki/Struktura_pasmowa.jpg>
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 5.
-) [1
-
-
-
-
-]
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 112.
+) [4 <./Rozdzial_2/obrazki/Struktura_pasmowa.jpg>] [5]
 \openout2 = `./Rozdzial_3/chapter3.aux'.
 
  (./Rozdzial_3/chapter3.tex
 Rozdzia\l  2.
-) [2
+) [6
 
 
 
@@ -710,7 +781,7 @@ Overfull \hbox (4.38255pt too wide) in paragraph at lines 4--4
 \T1/phv/b/n/17.28 rów gra-fe-no-wych wy-sta-wio-nych na dzia-ªa-nie at-mos-
  []
 
-) [3
+) [7
 
 
 
@@ -719,7 +790,7 @@ Overfull \hbox (4.38255pt too wide) in paragraph at lines 4--4
 
  (./Rozdzial_5/chapter5.tex
 Rozdzia\l  4.
-) [4
+) [8
 
 
 
@@ -727,7 +798,7 @@ Rozdzia\l  4.
 \tf@lot=\write4
 \openout4 = `magister.lot'.
 
- [5
+ [9
 
 
 
@@ -735,31 +806,37 @@ Rozdzia\l  4.
 \tf@lof=\write5
 \openout5 = `magister.lof'.
 
- (./magister.bbl [6
+ (./magister.bbl [10
 
-]) [7
+]) [11
 
 ]
 (./magister.aux (./Dedykacja/dedication.aux) (./Rozdzial_1/chapter1.aux)
 (./Rozdzial_2/chapter2.aux) (./Rozdzial_3/chapter3.aux)
 (./Rozdzial_4/chapter4.aux) (./Rozdzial_5/chapter5.aux)) ) 
 Here is how much of TeX's memory you used:
- 5316 strings out of 495027
- 74223 string characters out of 1181826
- 254398 words of memory out of 3002000
- 8323 multiletter control sequences out of 15000+50000
- 68543 words of font info for 53 fonts, out of 3000000 for 9000
+ 5299 strings out of 495027
+ 73662 string characters out of 1181826
+ 254450 words of memory out of 3002000
+ 8295 multiletter control sequences out of 15000+50000
+ 67705 words of font info for 73 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
- 32i,12n,35p,252b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,12n,35p,400b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fon
-ts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc
-}</usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf-texlive/f
-onts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/he
-lvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pf
-b>
-Output written on magister.pdf (12 pages, 558198 bytes).
+ts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.en
+c}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-texlive/
+fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr
+/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
+12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmsy8.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic
+/uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
+/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on magister.pdf (16 pages, 703678 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 9227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 14362 words of extra memory for PDF output out of 14400 (max. 10000000)
 
