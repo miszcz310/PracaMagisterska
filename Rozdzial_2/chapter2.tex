@@ -5,10 +5,10 @@ dla materiałów grafitowych o innych wymiarach. Może być zwinięty tworząc z
 zrolowany w jednowymiarowe nanorurki lub spiętrzony w stos tworząc trójwymiarowy grafit''	
 \footnote[1]{(odnośnik do Geim, A. K. and Novoselov, K. S. (2007). "The rise of graphene". Nature Materials 6 (3): 183–191. 					Bibcode:2007NatMa...6..183G. doi:10.1038/nmat1849. PMID 17330084.)}
 
-	Ta definicja pokazuje, że grafen stanowił ważny materiał, zanim udało się znaleźć metodę jego otrzymywania, \footnote[2]{tutaj o początkach grafenu} ponieważ odgrywał ważną rolę w modelowaniu właściwości innych materiałów zbudowanych z węgla (fullereny, nanorurki).
+	Ta definicja pokazuje, że grafen stanowił ważny materiał, jeszcze zanim udało się znaleźć metodę jego otrzymywania, \footnote[2]{tutaj o początkach grafenu} ponieważ odgrywał ważną rolę w modelowaniu właściwości innych materiałów zbudowanych z węgla (fullereny, nanorurki).
 	
 Poniższy rozdział ma na celu przybliżenie własności grafenu, dzięki którym możliwe
-zastosowania stanowią o niesamowitym zainteresowaniu ze strony dzisiejszych naukowców. Dodatkowo
+zastosowania stanowią o dzisiejszym, niesamowitym zainteresowaniu ze strony naukowców z całego świata. Dodatkowo
 zostanie zaprezentowana i omówiona metoda jego otrzymywania, w której upatruje się 
 największe nadzieje na otrzymywanie przemysłowych ilości tego niezwykłego materiału.
 Na sam koniec przedstawione zostaną niektóre z wielu zastosowań grafenu z naciskiem na
@@ -48,7 +48,7 @@ tranzystory polowe z kanałem grafenowym, które stanowią główną oś niniejs
 	w stanie wytrzymać 4-kilogramowego kota. Jednocześnie sam hamak  ważyłby mniej niż jego pojedynczy wąs. 
 	Dokładniej ważyłby 0.77 mg, jest to $10^{5}$ raza mniej niż waga arkusza papieru o tej samej powierzchni.
 
-	\section{Struktura i własności elektroniczne}
+\section{Własności elektronowe}
 	Po utworzeniu 3 par typu $\mathrm{sp^2}$ pozostaje jeden orbital typu p, będący prostopadły do
 	powierzchni tworzonej przez wiązania typu $\sigma$. Wraz z niesparowanymi orbitalami typu p pochodzącymi od
 	 sąsiednich atomów,  tworzy on zdelokalizowane wiązanie typu $\pi$
@@ -56,6 +56,7 @@ tranzystory polowe z kanałem grafenowym, które stanowią główną oś niniejs
 	wypełnione tylko w połowie elektronami. Dlatego właśnie to wiązanie decyduje o niezwykłych właściwościach 
 	elektronicznych grafenu.
 
+	\subsection{Struktura pasmowa}
 	Na początku omówienia właściwości elektronicznych grafenu warto przedstawić sieć odwrotną dla tego materiału.
 	Schemat pierwszej strefy Brillouina znajduje się na rysunku \ref{fig:siec_odwrotna}.
 	
@@ -83,25 +84,135 @@ tranzystory polowe z kanałem grafenowym, które stanowią główną oś niniejs
 
 	Oznaczenie t występujące w zależności \ref{equ:energia} jest to energia przeskoku pomiędzy danym atomem a 
 	jego najbliższym sąsiadem (zmiana podsieci). Natomiast t' jest to energia przeskoku pomiędzy następnym najbliższym
-	sąsiadem. Wartość t$\approx$2,8 eV, natomiast t'$\approx$0,2 eV. Na podstawie oby tych zależności \ref{equ:energia}, został narysowany wykres zależności energii w pierwszej strefie Brillouina, który zostął przedstawiony na rysunku \ref{fig:Struktura_pasmowa}.Dodatkowo zaznaczony został obszar w pobliżu punktu K.
-
-	\vspace{-10pt}
-	\begin{figure}[ht]
+	sąsiadem. Wartość t$\approx$2,8 eV, natomiast t'$\approx$0,2 eV. Na podstawie oby tych zależności 
+	\ref	{equ:energia}, został narysowany wykres zależności energii w pierwszej strefie Brillouina, który zostął 
+	przedstawiony na rysunku \ref{fig:Struktura_pasmowa}.
+	Ze wzoru \ref{equ:energia} wynika też, że jeżeli energia t' jest różna od zera, wtedy pasmo przewodnictwa i 
+	walencyjne są asymetryczne.
+	Dodatkowo zaznaczony został obszar w pobliżu punktu K.
+	
+	%\vspace{-10pt}
+	\begin{figure}[t]
 	\centering
 	\includegraphics[width=0.80\textwidth]{./Rozdzial_2/obrazki/Struktura_pasmowa.jpg}
 	\caption{Struktura pasmowa grafenu}
 	\label{fig:Struktura_pasmowa}
 	\end{figure}
-	\vspace{-10pt}
+	%\vspace{-10pt}
 
 	Wyróżniony obszar to tak zwany stożek Diraca. Jest to w zasadzie najciekawsze miejsce na krajobrazie pasmowym z 
 	co najmniej dwóch powodów. Po pierwsze jest to miejsce, gdzie stykają się pasma przewodnictwa i walencyjne. 
 	Po drugie w pobliżu punktu K mamy do czynienia z liniową zależnością energii od wektora falowego. 
-	Najczęściej tą relację w przybliża się w następujący sposób:
+	Najczęściej tą relację w przybliża się w poprzez rozwinięcie w szereg i ograniczenie 
+	się do pierwszego wyrazu liniowego:
 	\begin{equation}
     		E(\vec k) = \pm v_F|\vec k|
+		\label{equ:liniowa_dyspersja}
 	\end{equation}
-	Gdzie $\vec k = \vec K + \vec q$ i jednocześnie $|\vec q| << |\vec K|$.
+	Gdzie $\vec k = \vec K + \vec q$ i jednocześnie $|\vec q| << |\vec K|$. $v_F$ Jest to tak zwana prędkość Fermiego
+	i wynosi $v_F = \frac{3ta}{2}$, a co do wartości $v_F \approx 10^6 \frac{m}{s}$. Taki wynik jest bardzo różny 
+	od typowej zależności dla materiałów stosowanych w elektronice, ponieważ zazwyczaj zależność energii jest 
+	funkcją kwadratową wektora falowego. 
+	Liniowa zależność świadczy o występowaniu cząstek bez masowych, zwanych bez masowymi 
+	fermionami Diraca. Taka zależność
+	została potwierdzona eksperymentalnie. Takie kwazicząstki są bardziej podobne do fotonów niż do elektronów. 
+	To właśnie ta właściwość nośników występujących w grafenie stanowi o jego niespotykanych pośród innych materiałów
+	właściwościach.
+	
+	\subsection{Ruchliwość}
+	Dodatkowo bezmasowość nośników stanowi o bardzo wysokich ruchliwościach zarówno dla przewodnictwa dziurowego 
+	jak i elektronowego, co ważne nawet w temperaturach pokojowych. Jest to powszechnie uważane za największą
+	zaletę tego materiału.
+
+	Ruchliwości z zakresu 10 000 - 15 000  $\mathrm{\frac{cm^2}{V\cdot s}}$ są typowe dla grafenu eksfoliowanego
+	na podłożu z SiO$_2$.\footnote{Chen, J-H., Jang, C., Xiao, S., Ishigami, M. \& Fuhrer, M. S. Intrinsic and
+extrinsic performance limits of graphene devices on SiO2. Nature Nanotech.3, 206–209 (2008).}
+Jednak teoretyczne ograniczenia dla tego typu układów zostały przewidziane na 40 000 - 70 000  
+	 $\mathrm{\frac{cm^2}{V\cdot s}}$ \footnote{to co wyżej i Chen, F., Xia, J., Ferry, D. K. \& Tao, N. Dielectric screening enhanced
+performance in graphene FET. Nano Lett. 9, 2571–2574 (2009).}
+
+	Co więcej przy założeniu braku defektów struktury i rozpraszaniu tylko na fononach akustycznych, przewidywana
+	ruchliwość wynosi 200 000 $\mathrm{\frac{cm^2}{V\cdot s}}$ \footnote{Morozov, V. S. et al. Giant intrinsic carrier mobilities in graphene and its bilayer.
+Phys. Rev. Lett. 100, 016602 (2008).}. Co ciekawe donosi się o zmierzonej ruchliwości dla grafenu zawieszonego swobodnie
+	wynoszącej 10$^6$ $\mathrm{\frac{cm^2}{V\cdot s}}$ \footnote{Geim, A. Graphene update. Bull. Am. Phys. Soc. 55, abstr. J21.0004,
+http://meetings.aps.org/link/BAPS.2010.MAR.J21.4 (2010).}. 
+	Dla grafenu otrzymanego metodą CVD na folii niklowej i przetransferowanego na podłoże, zmierzona ruchliwość 
+	przekraczała 3 700 $\mathrm{\frac{cm^2}{V\cdot s}}$. \footnote{Kim, K-S. et al. Large-scale pattern growth of graphene films for stretchable
+transparent electrodes. Nature 457, 706–710 (2009).} Donosi się też o uzyskaniu grafenu wytwarzanego metodą CVD
+	dającego średnią ruchliwość wynoszącą 7 000 $\mathrm{\frac{cm^2}{V\cdot s}}$.\footnote{http://meetings.aps.org/Meeting/MAR13/Session/B6.6}
+	Z punktu widzenia niniejszej pracy największe znaczenia mają wyniki otrzymywane dla grafenu CVD, ponieważ próbki
+	tego typu były mierzone podczas pomiarów.
+	
+	Te liczby robią wrażenie. Jednak należy na nie patrzeć trochę z dystansem porównując je z typowymi materiałami
+	półprzewodnikowymi. Głównym powodem tego jest brak przerwy energetycznej. Ten problem zostanie omówiony szerzej
+	w późniejszym podrozdziale, jednak problem został zaznaczony już tutaj.
+
+
+	\subsection{Minimalna przewodność i gęstość stanów}
+	Inną ważną właściwością jest minimalna przewodność grafenu występująca również blisko punktów Diraca. Według 
+	rozważań teoretycznych przewodność ta powinna wynosić $\mathrm{4\frac{e^2}{h}}$ (4 wynika z czterokrotnego 
+	zdegenerowania). Ta wartość jest poparta wynikami teoretycznymi \footnote[9]{Geim, A. K. and Novoselov, K. S. (2007). "The rise of graphene". Nature Materials 6 (3): 183–191. Bibcode:2007NatMa...6..183G. doi:10.1038/nmat1849. PMID 17330084.}. Należy jednak pamiętać, że grafen na podłożu SiO$_2$, wykazuje pewne pofalowanie co znajduje swoje 
+	odzwierciedlenie jako pojawienie się lokalnych nośników i co z tym związane: zwiększenie tej wartości. 
+	Istnienie takiej minimalnej przewodności związane jest z funkcją gęstości stanów w grafenie. Dla uproszczenia 
+	załóżmy, że pasma przewodnictwa i walencyjne są symetryczne. Wykres dla takiego założenia przedstawia obrazek
+	\ref{fig:gestosc_stanow}.
+
+	\vspace{-10pt}
+	\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.90\textwidth]{./Rozdzial_2/obrazki/gestosc_stanow.jpg}
+	\caption{Gęstość stanów}
+	\label{fig:gestosc_stanow}
+	\end{figure}
+	\vspace{-10pt}
+
+	Założenie o symetrii pasm jest w pełni akceptowalne pod warunkiem ograniczenia się
+	 do punktów z bliskiego sąsiedztwa punktów Diraca w przestrzeni wektora falowego. W takim reżimie zależność
+	energii od wektora falowego jest liniowa, zgodnie ze wzorem \ref{equ:liniowa_dyspersja}. 
+	Dodatkowo funkcję gęstości stanów można przedstawić przy pomocy następującego wzoru:
+	\begin{equation}
+  	  \rho(E)=\mathrm{\frac{2A_c}{\pi}}\frac{|E|}{{ v_F^2}}
+	\label{equ:gestosc_stanow}
+	\end{equation}
+	Co zostało przedstawione w prawej części wykresu \ref{fig:gestosc_stanow}. Co świadczy o dobrym przybliżeniu 
+	gęstości stanów równaniem \ref{equ:gestosc_stanow} dla dostatecznie małych energii. Wzór ten odpowiada gęstości
+	stanów w komórce elementarnej. Uwzględniono w nim już poczwórną degenerację.
+
+	\subsection{Przerwa energetyczna}
+	Ze struktury pasmowej i funkcji gęstości stanów wynika, że grafen jest materiałem mającym charakter półmetalu.
+	Jest to o tyle ważne, że nie posiada on przerwy energetycznej. Przez wielu jest to uważane za główną wadę
+	grafenu, co dyskwalifikuje go w ewentualnym zastąpieniu krzemu w dzisiejszej masowej produkcji elektroniki, która
+	 oparta
+	jest na technologii CMOS (\textit{ang. Complementary Metal-Oxide-Semiconductor}). Taki brak przerwy powoduje, 
+	że urządzenia zbudowanego z użyciem grafenu jako głównego komponentu, nie dało by się po prostu wyłączyć, a jedynie
+	sprowadzić do stanu minimalnego przewodnictwa. Wiąże się to z dużymi stratami mocy co oczywiście z punku widzenia
+	ewentualnych urządzeń elektronicznych jest niedopuszczalne. 
+	Jednak trwają usilne próby mające na celu otwarcie przerwy energetycznej grafenu. Jak na razie przedstawione zostały
+	trzy główne metody. Są nimi: wytworzenie nanowstążki\footnote{\textit{nanoribbon}}, zastosowanie dwuwarstw, 
+	wytworzenie silnego odkształcenia jednoosiowego.\footnote{Tutaj nawstawiać odnośników z grafenowego tranzystora}
+	
+	Oczywiście każda z tych metod ma swoje wady. Nanowstążki muszą być bardzo wąski (rzędu kilkudziesięciu nanometrów),
+	dodatkowo, co bardzo ważne, muszę mieć bardzo dobrze zdefiniowane brzegi (nie ma znaczyenia czy zig-zag, czy 
+	armchair). Jest to niezwykle trudne zadanie, co ogranicza je w przemysłowym zastosowaniu. Dodatkowym minusem jest
+	znaczne zmniejszenie ruchliwości (głównej zalety grafenu) do poziomu poniżej 200 $\mathrm{\frac{cm^2}{V\cdot s}}$
+	dla nanowstążek o szerokości 1-10 nm, \footnote{26,62 grefenowy tranzystor} oraz 1 500 
+	$\mathrm{\frac{cm^2}{V\cdot s}}$ dla nanowstążki o szerokości 14 nm\footnote{45, grafenowy tranzystor}. 
+	Dlatego pozwalając na upodobnienie grafenu do typowych materiałów półprzewodnikowych skutkuje zniszczeniem
+	jego największej zalety, ogromnej ruchliwości.
+	
+	Jeżeli chodzi o dwuwarstwę to dużym problemem staje się to, że pasma zaczynają stawać się paraboliczne. Przypominają
+	te z typowych półprzewodników. Dodatkowo przerwa otwarta w ten sposób jest dość wąska i wynosi ok 200-250 meV.
+	Znowu widoczne jest pogorszenie się ruchliwości.
+
+	Ostania metoda jest chyba najciekawsza. Zakłada ona silne, globalne odkształcenie jednoosiowe materiału. 
+	Przewiduje się, że odkształcenie powinno wynosić powyżej 20\%. Na pierwszy rzut oka takie rozwiązanie wydaje
+	się być najprostsze ze wszystkich. Jednak trudno jest je wykonać w praktyce. Dodatkowo nie wiadomo jaki wpływ
+	mają odkształcenia nieosiowe lub lokalne na przerwę w grafenie. Na razie są to rozważania teoretyczne.
+
+	Podsumowując choć jest znanych co najmniej trzy metody otwarcia przerwy energetycznej w grafenie to jednak
+	należy założyć, że póki co nie mają one znaczenia z punktu widzenia zastosowania ich do ewentualnej 
+	technologii produkcji przyrządów elektronicznych.
+	
 
 	\section{Grafen otrzymywany metodą CVD}
 	Istnieje już dość duża liczba metod otrzymywania grafenu. Należy w tym miejscu wspomnieć chociażby o eksfoliacji
