@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  3 AUG 2013 02:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  3 AUG 2013 20:02
 entering extended mode
  %&-line parsing enabled.
 **magister.tex
@@ -774,12 +774,12 @@ File: ./Rozdzial_2/obrazki/gestosc_stanow.jpg Graphic file (type jpg)
 stanow.jpg>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 191.
- [6] [7] [8] [9]) [10]
+ [6] [7] [8] [9] [10] [11] [12]) [13]
 \openout2 = `./Rozdzial_3/chapter3.aux'.
 
  (./Rozdzial_3/chapter3.tex
 Rozdzia\l  2.
-) [11
+) [14
 
 
 
@@ -788,7 +788,7 @@ Rozdzia\l  2.
 
  (./Rozdzial_4/chapter4.tex
 Rozdzia\l  3.
-) [12
+) [15
 
 
 
@@ -797,7 +797,7 @@ Rozdzia\l  3.
 
  (./Rozdzial_5/chapter5.tex
 Rozdzia\l  4.
-) [13
+) [16
 
 
 
@@ -805,7 +805,7 @@ Rozdzia\l  4.
 \tf@lot=\write4
 \openout4 = `magister.lot'.
 
- [14
+ [17
 
 
 
@@ -815,7 +815,7 @@ Rozdzia\l  4.
 
 
 No file magister.bbl.
-[15
+[18
 
 ] (./magister.aux (./Dedykacja/dedication.aux) (./Rozdzial_1/chapter1.aux)
 (./Rozdzial_2/chapter2.aux) (./Rozdzial_3/chapter3.aux)
@@ -840,9 +840,9 @@ f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
 ts/type1/public/lm/lmsy8.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic
 /uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
 /share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on magister.pdf (20 pages, 772974 bytes).
+Output written on magister.pdf (23 pages, 785624 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
+ 130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13855 words of extra memory for PDF output out of 14400 (max. 10000000)
 
