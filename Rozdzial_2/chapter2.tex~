@@ -40,13 +40,13 @@ tranzystory polowe z kanałem grafenowym, które stanowią główną oś niniejs
 	Warto też wspomnieć o dwóch wektorach a$_1$ i a$_2$, tworzących pojedynczą sieć Bravais'ego. O ile nie mają one,
 	większego znaczenia dla samego opisu grafenu, o tyle warto o nich wspomnieć w kontekście nanorurek węglowych. Dzięki
 	wielokrotnościom tych wektorów określa się tak zwany wektor chiralności nanorurki. Dzięki temu można poznać charakter
-	nanorurki (metaliczna czy półprzewodnikowa).
+	nanorurki (metaliczny czy półprzewodnikowy).
 	
 	Jako wynik takiej budowy sieci grafenu, jest on bardzo wytrzymały. Teoretycznie 100 razy bardziej wytrzymały niż
 	stal o takiej samej grubości. Mimo wszystko jest on też bardzo lekki. Istnieje bardzo obrazowe
 	porównanie obu tych właściwości. Gdyby wytworzyć grafenowy hamak o powierzchnii 1 m$^2$, to taki hamak byłby
 	w stanie wytrzymać 4-kilogramowego kota. Jednocześnie sam hamak  ważyłby mniej niż jego pojedynczy wąs. 
-	Dokładniej ważyłby 0.77 mg, jest to $10^{5}$ raza mniej niż waga arkusza papieru o tej samej powierzchni.
+	Dokładniej ważyłby 0.77 mg, jest to $10^{5}$ razy mniej niż waga arkusza papieru o tej samej powierzchni.
 
 \section{Własności elektronowe}
 	Po utworzeniu 3 par typu $\mathrm{sp^2}$ pozostaje jeden orbital typu p, będący prostopadły do
@@ -214,12 +214,124 @@ transparent electrodes. Nature 457, 706–710 (2009).} Donosi się też o uzyska
 	technologii produkcji przyrządów elektronicznych.
 	
 
-	\section{Grafen otrzymywany metodą CVD}
-	Istnieje już dość duża liczba metod otrzymywania grafenu. Należy w tym miejscu wspomnieć chociażby o eksfoliacji
-(tak zwana metoda noblowska) i o metodzie opartej na węgliku krzemu (SiC). Jednak najbardziej obiecującą metodą
-wytwarzania grafenu na potrzeby przemysłu wydaje się być aktualnie metoda CVD (\textit{ang. Chemical Vapour Deposition}), czyli
-metoda osadzania z gazów. Poniżej zostanie opisana w sposób ogólny ta technologia, dodatkowo zostaną przedstawione wyniki 
-charakteryzacji grafenu otrzymanego tą metodą.
-		\subsection{Opis metody}
-		\subsection{Badania strukturalne grafenu}
+
+	\subsection{Efekty środowiskowe}
+	Innym problemem jest oddziaływanie grafenu z otoczeniem. Ze względu na swoje rozmiary, grafen jest podatny
+	na wszelkiego rodzaju zanieczyszczenia osiadające na jego powierzchni. Oczywiście tę wadę można przekuć w 
+	zaletę, np. wykorzystując ją do produkcji różnego rodzaju detektorów, nawet pojedynczych cząsteczek
+	\footnote{odniesienie}. Niemniej jednak w zastosowaniach w charakterze tranzystorów jest to dość poważna wada. 
+	Chociażby z tego względu, że chcielibyśmy, aby nasze urządzenia posiadały tak stabilne parametry jak to tylko
+	możliwe.
+	Dodatkowo należy pamiętać, że same metody wytwarzania pozostawiają po sobie różnego rodzaju zanieczyszczenia, 
+	które w ogólności zachowują się jak domieszki. Dlatego proces produkcji grafenu praktycznie zawsze 
+	wymaga jakiegoś dodatkowego
+	etapu, mającego zmniejszenie liczby zanieczyszczeń. Metody te nie są też doskonałe i otrzymany nimi grafen często
+	posiada wady strukturalne (w zasadzie nie dotyczy to tylko grafenu otrzymywanego metodą eksfoliacji) .
+	
+	Jedną z metod mających na celu poprawę jakości, jest tak zwane czyszczenie grafenu poprzez
+	 wygrzewanie gotowego urządzenia prądem elektrycznym
+	o dużej gęstości, najczęściej w próżni. Taki proces zostanie opisany dokładniej w trakcie omawiania zagadnień 
+	dotyczących tranzystorów z kanałem grafenowym.
+	
+	Innym problemem są zaburzenia w wysokości grafenu, spowodowane np. oddziaływaniem z podłożem. Takie fluktuacje 
+	wysokości zaburzają delikatną strukturę wiązań typu $\pi$, które jak już zostało wspomniane wcześniej mają 
+	najbardziej znaczący 
+	wpływ na własności elektronowe grafenu. Niestety nie ma na razie prostego sposobu rozwiązania tego problemu.
+	Dodatkowo takie odkształcenia powodują również powstanie lokalnych naprężeń, co jak pokazano wcześniej może
+	prowadzić nawet do otwarcia przerwy energetycznej.
+
+	Problematyczne są również wszelkie defekty struktury (pochodzące głównie z niedoskonałości procesu wytwarzania). 
+	Ich występowanie ma znaczący wpływ na pogorszenie się
+	ruchliwości, poprzez zwiększenie rozpraszania na właśnie tych defektach. Dodatkowo takie defekty mogą powodować
+	efekty tożsame z domieszkowaniem grafenu, co jest również niepożądanym efektem. 
+	Co ciekawe istnieją metody na poprawę
+	jakości strukturalnej grafenu. Jedną z nich jest bombardowanie powierzchni grafenu atomami węgla w odpowiednich
+	warunkach. Podczas tego procesu dochodzi do samonaprawy defektów polegających na braku atomu w węźle.
+	Co ciekawe taka samonaprawa możliwa jest również w obecności niektórych gazów lub nawet bez żadnej "pomocy z zewnątrz" w postaci ciepła, ciśnienia, bombardowania cząstkami. \footnote{Graphene Reknits Its Holes}
+	Jest to naprawdę ciekawa właściwość tego materiału raczej niespotykana nigdzie indziej.
+
+	Podsumowując, wszystkim tym problemom możemy przyporządkować trzy podstawowe wpływy na własności elektronowe
+	grafenu. Są nimi: pojawienie się przerwy energetycznej, degradacja ruchliwości i wreszcie efekty, które można 
+	utożsamiać z domieszkowaniem.
+	Problem przerwy energetycznej był już omawiany oddzielnie dlatego nie będzie omawiany teraz.
+	Degradacja ruchliwości jest przede wszystkim następstwem wytworzenia przerwy energetycznej w grafenie, 
+	defektami lub domieszkami. Ogólnie mówiąc wszytko co może zwiększyć rozpraszanie elektronów będzie 
+	prawdopodobnie degradowało ruchliwość w grafenie.
+	Efekty domieszkowania są o tyle uciążliwe, że mają bardzo duży wpływ na własności gotowych urządzeń.
+	Jak już wspomniano wcześniej grafen bardzo łatwo ulega domieszkowaniu co powoduje znaczne przesunięcia 
+	poziomu Fermiego w strukturze pasmowej. Jest to o tyle istotne, że nawet w obecności normalnej 
+	atmosfery widoczny jest ten efekt. Prawdopodobnie głównym winowajcą jest tutaj wszechobecna wilgoć
+	i wytwarzanie się cienkiej warstewki wody na powierzchni grafenu, co w połączeniu z ewentualnymi 
+	większymi zanieczyszczeniami prowadzi do znacznych przesunięć poziomu Fermiego.
+	Dla idealnie czystego i idealnie strukturalnego grafenu, poziom
+	Fermiego znajduje się dokładnie na styku pasma przewodnictwa i walencyjnego, w stożku Diraca.
+	Zmiana tego poziomu powoduje bardzo duże zmiany w charakterystykach np. tranzystorów typu FET (
+	\textit{ang. Field Effect Transistor}), co jest niedopuszczalne dla przemysłu.
+	Jest to tematyka dość obszernie porusza w niniejszej pracy, dokładniej w części eksperymentalnej.
+
+	\subsection{Inne właściwości}
+		
+	Oczywiście grafen posiada wiele różnych innych właściwości czyniących go bardzo pożądanym materiałem. Do nich należą między innymi : wysoka przewodność cieplna \footnote{przewodność cieplna} oraz mała absorbcja \footnote{mała absorbcja} 
+	światła z zakresu widzialnego. Ze względu na skończoną objętość niniejszej pracy zdecydowano o nie rozwijaniu 
+	tych właściwości jako mało istotnych z punktu widzenia zakresu materiału, o którym traktuje niniejsza praca.
+	
+\section{Metody otrzymywania grafenu}
+	Na dzień dzisiejszy znanych jest już kilka metod otrzymywania grafenu na potrzeby różnych zastosowań. Iskrą 
+	zapalną dla poszukiwań takich metod stało się doniesienie przez grupę naukowców z Manchesteru o opracowaniu
+	metody otrzymywania tego materiału \footnote{Tutaj odniesienie do pierwszej pracy}. Wcześniej panowało
+	powszechne przekonanie, że grafen jako materiał dwuwymiarowy nie może istnieć w takiej postaci, ze względu
+	na zbyt duże oscylacje termicznie poszczególnych atomów co w konsekwencji miałoby prowadzić do jego niestabilności.
+	Był to przez długie lata główny powód dla, którego sprawa grafenu stanowiła tak zwaną "ziemię niczyją".
+	Po 2004 roku kiedy okazało się, że jednak grafen jest stabilny termodynamicznie i istnieje metoda jego otrzymywania,
+	działalność twórcza wielu naukowców zwróciła się w jego stronę. Dlatego też w stosunkowo krótkim czasie
+	powstało wiele różnych metod otrzymywania. W niniejszym podpunkcie zaprezentowana zostaną metody 
+	najbardziej typowe i dające stosunkowo najlepsze rezultaty. Warto jednak podkreślić, że próbki
+	otrzymane różnymi metodami różnią się od siebie.
+
+	\subsection{Eksfoliacja}
+	
+	Jak zostało wspomniane, metoda eksfoliacji jest pierwszą metodą otrzymywania grafenu w sposób powtarzalny.
+	Została ona przedstawiona przez grupę naukowców z Manchesteru w 2004 roku. Jako ciekawostkę można powiedzieć,
+	że przynajmniej w początkowej fazie, prace nad nią należały do tak zwanych "piątkowych projektów". Dopiero, 
+	gdy okazało się, że faktycznie możliwe jest wytworzenie grafenu tą metodą rozpoczęto poważne prace nad nią.
+	
+	Ogólnie metoda opiera się na fakcie, że grafit jest materiałem zbudowanym z gotowych, niezliczonych warstw 
+	grafenowych. Wystarczy je tylko od siebie rozseparować. Dodatkowo wiadomo, że atomy w warstwach grafenu 
+	są ze sobą silnie związane wiązaniami typu $\sigma$. Natomiast poszczególne warstwy są ze sobą związane 
+	przy pomocy dużo słabszych wiązań Van der Waalsa. 
+	Do separacji warstw wykorzystano taśmę klejącą. Po nałożeniu na taśmę fragmentu grafitu, dokonywano wielokrotnych
+	złożeń, przy każdym złożeniu rozdzielając warstwy. Po bardzo dużej liczbie takich złożeń taśmę z warstwami 
+	umieszczano w acetonie gdzie następował rozkład taśmy i kleju. Otrzymano warstwy grafenowe zawieszone w acetonie.
+	Kolejnym krokiem było umieszczenie ich na podłożu krzemowym, pokrytym SiO$_2$ o odpowiedniej grubości.
+	Grubość tlenku ma tutaj zasadnicze znaczenie ze względu na absorbcję światła przez grafen. Dla tlenków
+	o grubościach 10 nm i 300 nm obserwuje się maksymalny kontrast pomiędzy obszarem pokrytym grafenem i obszarem 	
+	podłoża.Ten rodzaj eksfoliacji nazywany jest mokrym, ze względu na użycie rozpuszczalnika pomiędzy procesem 
+	separacji a transferu.
+
+	Po około roku metoda została ulepszona przez usunięcie etapu rozpuszczania taśmy w acetonie, a transferu 
+	dokonuje się bezpośrednio z taśmy klejącej. W tym przypadku mówi się o suchej eksfoliacji.
+	Po procesie transferu, następuje czasochłonny etap poszukiwań pojedynczych warstw. Do tego celu używany jest
+	mikroskop optyczny dysponujący odpowiednim powiększeniem. Powiększenie jest niezbędne ze względu na małe 
+	rozmiary otrzymywanych warstw. W tym momencie ujawnia się największa wada tej metody. Nie może być mowy
+	o jakiejkolwiek powtarzalności. Próbki zazwyczaj są małe, rzędu pojedynczych mikrometrów, choć donosi się
+	o warstwach grafenu otrzymanych tą metodą rzędu milimetrów i widocznych gołym okiem na powierzchni podłoża.
+	Drugą wadą tej metody jest cena tak pozyskiwanego materiału, z uwzględnieniem znikomej wydajności i 
+	ogromu czasu potrzebnego na zlokalizowanie odpowiedniej warstwy.
+
+	Jednak ta metoda ma niezaprzeczalną zaletę. Grafen otrzymany dzięki niej jest bardzo wysokiej jakości 
+	strukturalnej, w zasadzie najlepszej. Dzięki czemu jest bardzo pożądanym do celów naukowych. 
+	Dodatkowo do jego wytworzenie nie są potrzebne ani wyspecjalizowany sprzęt. Metodą można stosować
+	nawet w warunkach domowych. Niestety wady tej metody całkowicie eliminują ją w zastosowaniach przemysłowych.
+
+	Warto wspomnieć, że sukces tej metody otworzył przed naukowcami możliwości badania również innych 
+	materiałów warstwowych np. siarczku molibdenu, lub siarczku wolframu. Oba te materiały są bardzo
+	obiecującymi, wschodzącymi materiałami dla nanoelektroniki.
+
+
+	\subsection{Epitaksja na węgliku krzemu}
+
+	\subsection{Metoda CVD}
+	
+		\paragraph{Opis metody}
+		\paragraph{Badania strukturalne grafenu}
 	\section{Zastosowania}
