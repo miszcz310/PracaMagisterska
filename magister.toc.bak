@@ -4,31 +4,36 @@
 \contentsline {chapter}{Wst\IeC {\k e}p}{iv}
 \contentsline {chapter}{\numberline {1}Grafen}{1}
 \contentsline {section}{\numberline {1.1}Struktura atomowa i w\IeC {\l }asno\IeC {\'s}ci mechaniczne}{2}
-\contentsline {section}{\numberline {1.2}W\IeC {\l }asno\IeC {\'s}ci elektronowe}{2}
+\contentsline {section}{\numberline {1.2}W\IeC {\l }asno\IeC {\'s}ci elektronowe}{3}
 \contentsline {subsection}{\numberline {1.2.1}Struktura pasmowa}{3}
-\contentsline {subsection}{\numberline {1.2.2}Ruchliwo\IeC {\'s}\IeC {\'c}}{4}
+\contentsline {subsection}{\numberline {1.2.2}Ruchliwo\IeC {\'s}\IeC {\'c}}{5}
 \contentsline {subsection}{\numberline {1.2.3}Minimalna przewodno\IeC {\'s}\IeC {\'c} i g\IeC {\k e}sto\IeC {\'s}\IeC {\'c} stan\IeC {\'o}w}{5}
 \contentsline {subsection}{\numberline {1.2.4}Przerwa energetyczna}{6}
 \contentsline {subsection}{\numberline {1.2.5}Efekty \IeC {\'s}rodowiskowe}{7}
-\contentsline {subsection}{\numberline {1.2.6}Inne w\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci}{8}
-\contentsline {section}{\numberline {1.3}Metody otrzymywania grafenu}{8}
-\contentsline {subsection}{\numberline {1.3.1}Eksfoliacja}{9}
-\contentsline {subsection}{\numberline {1.3.2}Epitaksja na w\IeC {\k e}gliku krzemu}{10}
-\contentsline {subsection}{\numberline {1.3.3}Metoda CVD}{10}
-\contentsline {paragraph}{Badania strukturalne grafenu}{12}
-\contentsline {section}{\numberline {1.4}Zastosowania}{12}
-\contentsline {chapter}{\numberline {2}Tranzystor FET z kana\IeC {\l }em grafenowym}{14}
-\contentsline {section}{\numberline {2.1}Tradycyjny tranzystor FET z izolowan\IeC {\k a} bramk\IeC {\k a}}{14}
-\contentsline {section}{\numberline {2.2}Tranzystor FET z kana\IeC {\l }em grafenowym}{14}
-\contentsline {section}{\numberline {2.3}Proces produkcji tranzystor\IeC {\'o}w z kana\IeC {\l }em grafenowym}{14}
-\contentsline {subsection}{\numberline {2.3.1}Struktury tranzystor\IeC {\'o}w}{14}
-\contentsline {subsection}{\numberline {2.3.2}Metoda produkcji tranzystor\IeC {\'o}w}{14}
-\contentsline {paragraph}{Opis metodologii}{14}
-\contentsline {paragraph}{Zdj\IeC {\k e}cia optyczne}{14}
-\contentsline {chapter}{\numberline {3}Pomiary elektryczne tranzystor\IeC {\'o}w}{15}
-\contentsline {section}{\numberline {3.1}Charakterystyki przej\IeC {\'s}ciowe i wyj\IeC {\'s}ciowe}{15}
-\contentsline {section}{\numberline {3.2}Proces wygrzewania pr\IeC {\k a}dowego tranzystor\IeC {\'o}w grafenowych}{15}
-\contentsline {section}{\numberline {3.3}Ewolucja charakterystyk elektrycznych tranzystor\IeC {\'o}w grafenowych wystawionych na dzia\IeC {\l }anie atmosfery}{15}
-\contentsline {chapter}{\numberline {4}Podsumowanie}{16}
-\contentsline {chapter}{Spis tablic}{17}
-\contentsline {chapter}{Spis rysunk\'ow}{18}
+\contentsline {subsection}{\numberline {1.2.6}Inne w\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci}{9}
+\contentsline {section}{\numberline {1.3}Metody otrzymywania grafenu}{9}
+\contentsline {subsection}{\numberline {1.3.1}Eksfoliacja}{10}
+\contentsline {subsection}{\numberline {1.3.2}Epitaksja na w\IeC {\k e}gliku krzemu}{11}
+\contentsline {subsection}{\numberline {1.3.3}Metoda CVD}{12}
+\contentsline {section}{\numberline {1.4}Zastosowania}{14}
+\contentsline {chapter}{\numberline {2}Tranzystor grafenowy}{17}
+\contentsline {section}{\numberline {2.1}Tranzystor FET}{18}
+\contentsline {section}{\numberline {2.2}Tranzystor FET z kana\IeC {\l }em grafenowym}{20}
+\contentsline {subsection}{\numberline {2.2.1}Podstawy fizyczne dzia\IeC {\l }ania}{20}
+\contentsline {subsection}{\numberline {2.2.2}Najwa\IeC {\.z}niejsze w\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci}{20}
+\contentsline {paragraph}{Ruchliwo\IeC {\'s}\IeC {\'c}}{20}
+\contentsline {paragraph}{Przerwa energetyczna}{20}
+\contentsline {paragraph}{Definicje najwa\IeC {\.z}niejszych parametr\IeC {\'o}w}{20}
+\contentsline {subsection}{\numberline {2.2.3}Om\IeC {\'o}wienie charakterystyk elektrycznych}{21}
+\contentsline {section}{\numberline {2.3}Proces produkcji tranzystor\IeC {\'o}w z kana\IeC {\l }em grafenowym}{21}
+\contentsline {subsection}{\numberline {2.3.1}Struktury tranzystor\IeC {\'o}w}{21}
+\contentsline {subsection}{\numberline {2.3.2}Metoda produkcji tranzystor\IeC {\'o}w}{21}
+\contentsline {paragraph}{Opis metodologii}{21}
+\contentsline {paragraph}{Zdj\IeC {\k e}cia optyczne}{21}
+\contentsline {chapter}{\numberline {3}Pomiary elektryczne tranzystor\IeC {\'o}w}{22}
+\contentsline {section}{\numberline {3.1}Charakterystyki przej\IeC {\'s}ciowe i wyj\IeC {\'s}ciowe}{22}
+\contentsline {section}{\numberline {3.2}Proces wygrzewania pr\IeC {\k a}dowego tranzystor\IeC {\'o}w grafenowych}{22}
+\contentsline {section}{\numberline {3.3}Ewolucja charakterystyk elektrycznych tranzystor\IeC {\'o}w grafenowych wystawionych na dzia\IeC {\l }anie atmosfery}{22}
+\contentsline {chapter}{\numberline {4}Podsumowanie}{23}
+\contentsline {chapter}{Spis tablic}{24}
+\contentsline {chapter}{Spis rysunk\'ow}{25}

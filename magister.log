@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  3 AUG 2013 20:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  5 AUG 2013 22:38
 entering extended mode
  %&-line parsing enabled.
 **magister.tex
@@ -8,8 +8,8 @@ Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, polish, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/bk11.clo
-File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-texlive/tex/latex/base/bk12.clo
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -637,11 +637,11 @@ driver: dvips
 \topmargin  -47.23828pt
 \headheight 12.0pt
 \headsep    19.8738pt
-\footskip   27.46295pt
-\marginparwidth 62.0pt
+\footskip   30.0pt
+\marginparwidth 47.0pt
 \marginparsep   7.0pt
 \columnsep  10.0pt
-\skip\footins  10.0pt plus 4.0pt minus 2.0pt
+\skip\footins  10.8pt plus 4.0pt minus 2.0pt
 \hoffset 0.0pt
 \voffset 0.0pt
 \mag 1000
@@ -676,7 +676,7 @@ LaTeX Font Info:    Try loading font information for OMX+lmex on input line 4.
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 4.
+(Font)              <12> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -694,7 +694,7 @@ Overfull \hbox (5.78632pt too wide) in paragraph at lines 4--12
 []  
  []
 
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 24.
 [1
 Non-PDF special ignored!
@@ -706,9 +706,9 @@ logopw.jpg> <./Strona_tytulowa/obrazki/logofiz.jpg>])
 
 
 (./Dedykacja/dedication.tex
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
 ) [1
 
@@ -736,7 +736,9 @@ Rozdzia\l  1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 6.
+(Font)              <10> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 6.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 6.
 [1
@@ -749,46 +751,93 @@ File: ./Rozdzial_2/obrazki/Siec_grafen.jpg Graphic file (type jpg)
 
 <use ./Rozdzial_2/obrazki/Siec_grafen.jpg> [2 <./Rozdzial_2/obrazki/Siec_grafen
 .jpg>]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 59.
 
 <./Rozdzial_2/obrazki/Siec_odwrotna.jpg, id=33, 441.90094pt x 441.90094pt>
 File: ./Rozdzial_2/obrazki/Siec_odwrotna.jpg Graphic file (type jpg)
 
-<use ./Rozdzial_2/obrazki/Siec_odwrotna.jpg>
-<./Rozdzial_2/obrazki/Struktura_pasmowa.jpg, id=34, 813.0375pt x 423.83344pt>
+<use ./Rozdzial_2/obrazki/Siec_odwrotna.jpg> [3 <./Rozdzial_2/obrazki/Siec_odwr
+otna.jpg>]
+<./Rozdzial_2/obrazki/Struktura_pasmowa.jpg, id=42, 813.0375pt x 423.83344pt>
 File: ./Rozdzial_2/obrazki/Struktura_pasmowa.jpg Graphic file (type jpg)
 
-<use ./Rozdzial_2/obrazki/Struktura_pasmowa.jpg> [3 <./Rozdzial_2/obrazki/Siec_
-odwrotna.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-[][]\T1/phv/m/n/9 Geim, A. Gra-phene update. Bull. Am. Phys. Soc. 55, abstr. J2
-1.0004,
+<use ./Rozdzial_2/obrazki/Struktura_pasmowa.jpg> [4 <./Rozdzial_2/obrazki/Struk
+tura_pasmowa.jpg>]
+Underfull \hbox (badness 4120) in paragraph at lines 138--138
+[][]\T1/phv/m/n/10 Geim, A. Gra-phene update. Bull. Am. Phys. Soc. 55, abstr. J
+21.0004,
  []
 
-[4 <./Rozdzial_2/obrazki/Struktura_pasmowa.jpg>]
-<./Rozdzial_2/obrazki/gestosc_stanow.jpg, id=46, 978.65625pt x 376.40625pt>
+[5]
+<./Rozdzial_2/obrazki/gestosc_stanow.jpg, id=49, 978.65625pt x 376.40625pt>
 File: ./Rozdzial_2/obrazki/gestosc_stanow.jpg Graphic file (type jpg)
 
-<use ./Rozdzial_2/obrazki/gestosc_stanow.jpg> [5 <./Rozdzial_2/obrazki/gestosc_
-stanow.jpg>]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+<use ./Rozdzial_2/obrazki/gestosc_stanow.jpg>
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 191.
- [6] [7] [8] [9] [10] [11] [12]) [13]
+ [6 <./Rozdzial_2/obrazki/gestosc_stanow.jpg>] [7] [8] [9] [10] [11]
+<./Rozdzial_2/obrazki/Reaktor.png, id=69, 763.85374pt x 249.93375pt>
+File: ./Rozdzial_2/obrazki/Reaktor.png Graphic file (type png)
+
+<use ./Rozdzial_2/obrazki/Reaktor.png> [12 <./Rozdzial_2/obrazki/Reaktor.png (P
+NG copy)>]
+<./Rozdzial_2/obrazki/transfer.png, id=73, 913.4125pt x 241.90375pt>
+File: ./Rozdzial_2/obrazki/transfer.png Graphic file (type png)
+
+<use ./Rozdzial_2/obrazki/transfer.png> [13 <./Rozdzial_2/obrazki/transfer.png 
+(PNG copy)>]
+<./Rozdzial_2/obrazki/elektroda.png, id=77, 260.975pt x 241.90375pt>
+File: ./Rozdzial_2/obrazki/elektroda.png Graphic file (type png)
+
+<use ./Rozdzial_2/obrazki/elektroda.png> [14] [15 <./Rozdzial_2/obrazki/elektro
+da.png>]) [16]
 \openout2 = `./Rozdzial_3/chapter3.aux'.
 
  (./Rozdzial_3/chapter3.tex
 Rozdzia\l  2.
-) [14
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[][]\T1/phv/m/n/10 The In-ter-na-tio-nal Tech-no-logy Ro-ad-map for Se-mi-con-d
+uc-tors http://www.itrs.net/
+ []
+
+
+Overfull \hbox (4.75604pt too wide) in paragraph at lines 16--23
+[]\T1/phv/m/n/12 W ni-niej-szym roz-dziale zo-sta-nie przed-sta-wiona idea dzia
+-ªa-nia tran-zy-stora FET. Praw-
+ []
+
+
+Overfull \hbox (0.70398pt too wide) in paragraph at lines 16--23
+\T1/phv/m/n/12 Na-st¦p-nie zo-sta-nie przed-sta-wiona kon-cep-cja za-sto-so-wa-
+nia gra-fenu przy pro-duk-cji tego
+ []
+
+[17
 
 
 
-]
+] <./Rozdzial_3/obrazki/Lateral_mosfet.png, id=93, 602.25pt x 361.35pt>
+File: ./Rozdzial_3/obrazki/Lateral_mosfet.png Graphic file (type png)
+
+<use ./Rozdzial_3/obrazki/Lateral_mosfet.png>
+<./Rozdzial_3/obrazki/Charakterystyki_FET.png, id=94, 1003.75pt x 439.6425pt>
+File: ./Rozdzial_3/obrazki/Charakterystyki_FET.png Graphic file (type png)
+
+<use ./Rozdzial_3/obrazki/Charakterystyki_FET.png> [18 <./Rozdzial_3/obrazki/La
+teral_mosfet.png (PNG copy)>] [19 <./Rozdzial_3/obrazki/Charakterystyki_FET.png
+>] [20]) [21]
 \openout2 = `./Rozdzial_4/chapter4.aux'.
 
  (./Rozdzial_4/chapter4.tex
 Rozdzia\l  3.
-) [15
+
+Overfull \hbox (4.38255pt too wide) in paragraph at lines 4--4
+\T1/phv/b/n/17.28 rów gra-fe-no-wych wy-sta-wio-nych na dzia-ªa-nie at-mos-
+ []
+
+) [22
 
 
 
@@ -797,7 +846,7 @@ Rozdzia\l  3.
 
  (./Rozdzial_5/chapter5.tex
 Rozdzia\l  4.
-) [16
+) [23
 
 
 
@@ -805,7 +854,7 @@ Rozdzia\l  4.
 \tf@lot=\write4
 \openout4 = `magister.lot'.
 
- [17
+ [24
 
 
 
@@ -815,34 +864,34 @@ Rozdzia\l  4.
 
 
 No file magister.bbl.
-[18
+[25
 
 ] (./magister.aux (./Dedykacja/dedication.aux) (./Rozdzial_1/chapter1.aux)
 (./Rozdzial_2/chapter2.aux) (./Rozdzial_3/chapter3.aux)
 (./Rozdzial_4/chapter4.aux) (./Rozdzial_5/chapter5.aux)) ) 
 Here is how much of TeX's memory you used:
- 5293 strings out of 495027
- 73761 string characters out of 1181826
- 258419 words of memory out of 3002000
- 8291 multiletter control sequences out of 15000+50000
- 69411 words of font info for 71 fonts, out of 3000000 for 9000
+ 5339 strings out of 495027
+ 74972 string characters out of 1181826
+ 257450 words of memory out of 3002000
+ 8329 multiletter control sequences out of 15000+50000
+ 70721 words of font info for 75 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
- 34i,12n,35p,430b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,12n,35p,427b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fon
 ts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.en
 c}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-texlive/
 fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr
+ts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr
 /share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fon
+12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmsy8.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic
 /uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
 /share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on magister.pdf (23 pages, 785624 bytes).
+Output written on magister.pdf (30 pages, 1267453 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13855 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 14904 words of extra memory for PDF output out of 17280 (max. 10000000)
 
