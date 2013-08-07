@@ -305,6 +305,14 @@ prostych przekształceniach i założeniu, że znajdujemy się w liniowym obszar
     \mathrm{ g_m = \frac{d I_D}{d V_G} |_{ V_{DS}=const}}
 \end{equation}
 
+Ogromną zaletą tej metody jest jej uniwersalność i możliwość porównywania tranzystorów wykonanych nawet w zupełnie innej
+technologii i przy użyciu innych materiałów. 
+
+Nie jest ona niestety pozbawiona wad. Duży wpływ na wartość otrzymanej ruchliwości ma wybór części charakterystyki. 
+Dlatego istnieje tutaj sporo miejsca do nadużyć, lub popełniania błędów. Jednak w przypadku urządzeń grafenowych, nie ma
+to aż takiego znaczenia, ponieważ te charakterystyki są liniowe w szerokim zakresie. Dlatego również ta metoda jest dobra
+do oszacowania ruchliwości.
+
 	\section{Najnowsze technologie tranzystorów grafenowych}
 
 	\section{Proces produkcji tranzystorów z kanałem grafenowym}
