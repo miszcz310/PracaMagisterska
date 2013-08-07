@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  5 AUG 2013 22:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  7 AUG 2013 13:56
 entering extended mode
  %&-line parsing enabled.
 **magister.tex
@@ -827,7 +827,25 @@ File: ./Rozdzial_3/obrazki/Charakterystyki_FET.png Graphic file (type png)
 
 <use ./Rozdzial_3/obrazki/Charakterystyki_FET.png> [18 <./Rozdzial_3/obrazki/La
 teral_mosfet.png (PNG copy)>] [19 <./Rozdzial_3/obrazki/Charakterystyki_FET.png
->] [20]) [21]
+>] [20]
+<./Rozdzial_3/obrazki/zasadadzialania.jpg, id=106, 677.53125pt x 248.42813pt>
+File: ./Rozdzial_3/obrazki/zasadadzialania.jpg Graphic file (type jpg)
+
+<use ./Rozdzial_3/obrazki/zasadadzialania.jpg> [21]
+<./Rozdzial_3/obrazki/charakterystykaPrzej.jpg, id=110, 456.20438pt x 315.42844
+pt>
+File: ./Rozdzial_3/obrazki/charakterystykaPrzej.jpg Graphic file (type jpg)
+ <use ./Rozdzial_3/obrazki/charakterystykaPrzej.jpg> [22 <./Rozdzial_3/obrazki/
+zasadadzialania.jpg>]
+<./Rozdzial_3/obrazki/charakterystykaWyj.jpg, id=114, 452.4403pt x 326.72063pt>
+File: ./Rozdzial_3/obrazki/charakterystykaWyj.jpg Graphic file (type jpg)
+<use ./Rozdzial_3/obrazki/charakterystykaWyj.jpg> [23 <./Rozdzial_3/obrazki/cha
+rakterystykaPrzej.jpg>] [24 <./Rozdzial_3/obrazki/charakterystykaWyj.jpg>]
+
+LaTeX Warning: Command \l invalid in math mode on input line 282.
+
+Missing character: There is no ª in font cmss8!
+[25]) [26]
 \openout2 = `./Rozdzial_4/chapter4.aux'.
 
  (./Rozdzial_4/chapter4.tex
@@ -837,7 +855,7 @@ Overfull \hbox (4.38255pt too wide) in paragraph at lines 4--4
 \T1/phv/b/n/17.28 rów gra-fe-no-wych wy-sta-wio-nych na dzia-ªa-nie at-mos-
  []
 
-) [22
+) [27
 
 
 
@@ -846,7 +864,7 @@ Overfull \hbox (4.38255pt too wide) in paragraph at lines 4--4
 
  (./Rozdzial_5/chapter5.tex
 Rozdzia\l  4.
-) [23
+) [28
 
 
 
@@ -854,7 +872,7 @@ Rozdzia\l  4.
 \tf@lot=\write4
 \openout4 = `magister.lot'.
 
- [24
+ [29
 
 
 
@@ -864,16 +882,16 @@ Rozdzia\l  4.
 
 
 No file magister.bbl.
-[25
+[30
 
 ] (./magister.aux (./Dedykacja/dedication.aux) (./Rozdzial_1/chapter1.aux)
 (./Rozdzial_2/chapter2.aux) (./Rozdzial_3/chapter3.aux)
 (./Rozdzial_4/chapter4.aux) (./Rozdzial_5/chapter5.aux)) ) 
 Here is how much of TeX's memory you used:
- 5339 strings out of 495027
- 74972 string characters out of 1181826
+ 5360 strings out of 495027
+ 75704 string characters out of 1181826
  257450 words of memory out of 3002000
- 8329 multiletter control sequences out of 15000+50000
+ 8347 multiletter control sequences out of 15000+50000
  70721 words of font info for 75 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
  34i,12n,35p,427b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -889,9 +907,9 @@ f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
 ts/type1/public/lm/lmsy8.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic
 /uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
 /share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on magister.pdf (30 pages, 1267453 bytes).
+Output written on magister.pdf (35 pages, 1372881 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 179 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 14904 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 14919 words of extra memory for PDF output out of 17280 (max. 10000000)
 

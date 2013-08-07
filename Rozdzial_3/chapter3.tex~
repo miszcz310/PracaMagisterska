@@ -86,7 +86,8 @@ Relatywnie większą łatwość wprowadzania nowych technologicznie materiałów
 głównie z tego względu, że wydajność urządzeń cyfrowych najbardziej zależy od najgorszych egzemplarzy tranzystorów 
 zintegrowanych w układzie logicznym. Podczas, gdy w przypadku pojedynczo produkowanych tranzystorów do zastosowań analogowych,
 te z nich, które za bardzo odbiegają parametrami od norm mogą zostać niedopuszczone do sprzedaży. Co odbywa się bez wpływu
-dla reszty sprzedawanych egzemplarzy tranzystorów.
+dla reszty sprzedawanych egzemplarzy tranzystorów. To samo tyczy się zintegrowanych układów scalonych. Jako znacznie
+prostsze są mniej narażone na ewentualne odchyłki parametrów pojedynczego tranzystora.
 
 Jednak pomimo różnic, obie te gałęzie dążą do wspólnych celów. Zmniejszenia kosztów produkcji pojedynczego tranzystora.
 Polepszenia jego właściwości. Głównie dla tranzystorów przeznaczonych do zastosowań cyfrowych działaniem mającym na celu
@@ -105,6 +106,19 @@ rządzi ekonomia.
 To rozwiązanie zaczęło zawodzić, kiedy zaczęto dochodzić rozmiarami tranzystora do granic możliwości. Wtedy stało się jasne,
 że niezbędne będzie opracowanie całkowicie nowej technologii wytwarzania lepszych tranzystorów.
 
+Wspomniana technologia układów cyfrowych opiera się na komplementarnych tranzystorach CMOS (\textit{Complementary Metal-
+Oxide-Semiconductur}). Podstawowym budulcem bramek logicznych jest para tranzystorów MOS z kanałami n i p. Oba mogą 
+znajdować w dwóch stanach: włączenia i wyłączenia. Najwięcej energii pobierane jest, gdy chcemy zmienić ten stan. 
+Idea polega na takim projektowaniu układów logicznych by poszczególne bramki logiczne składały się z kombinacji
+tranzystorów n i p kanałowych, która zapewnia brak przepływu dużych prądów w stanie ustalonym. Często najbardziej znaczącym
+prądem w stanie ustalonym jest suma prądów upływności bramek. Są one niezbędne do poprawnej polaryzacji bramki.
+Z tego powodu bardzo pożądaną właściwością tych tranzystorów jest duży stosunek prądu włączenia do prądu wyłączenia, z 
+warunkiem minimalizacji prądu wyłączenia. Typowymi wartościami są tutaj stosunki wł/wył wynoszące 10$^4$--10$^7$
+\footnote{gr. tranz. ref 2}.  W typowych konstrukcjach poszczególnych FET-ów wymaga to posiadania wystarczająco szerokiej
+przerwy energetycznej najlepiej więcej niż 0,4 eV. Drugą ważną właściwością jest posiadanie dokładnie takiego samego
+napięcia przełączania. Dopiero te dwa warunki są w stanie zapewnić dobrego kandydata na następce dla dzisiaj stosowanych
+materiałów.
+
 
 Sytuacja w dziedzinie zastosowań analogowych, ze szczególnym wskazaniem zastosowań radiowych, wygląda z goła inaczej. 
 Tutaj sama miniaturyzacja tranzystora nie jest najważniejsza, bo ważniejsze są jego właściwości, a same zintegrowane układy
@@ -113,19 +127,185 @@ analogowe są znacznie bardziej proste niż cyfrowe. Dodatkowo badania nad wielo
  segment rynku jest znacznie bardziej otwarty na nowe technologie. Jako przykłady można wspomnieć tutaj np o tranzystorach
 HEMT, opartych na materiałach III-IV; urządzeniach opartych na technologii arsenku galu GaAs, lub fosforku indu InP.
 
+
+W zastosowaniach analogowych nie wymaga się od tranzystora posiadania stanu całkowitego wyłączenia. Zazwyczaj i tak 
+w większości zastosowań tranzystory te pracują w jakimś punkcie pracy, który wymusza stały przepływ prądu. Tutaj dużo 
+ważniejszym parametrem jest z kolei liniowość i wysoka częstotliwość odcięcia. W przypadku grafenu co zostanie pokazane
+poniżej warunek liniowości jest bardzo dobrze spełniony. Tak samo jak spełniony jest ten o wysokiej częstotliwości odcięcia.
+Donosi się o tranzystorach grafenowych o specjalnej budowie, gdzie rolę bramki pełni nanoprzewód, dla których
+częstotliwość odcięcia zawierała się w przedziale 100--300 GHz \footnote{High-speed graphene transistors with a self-aligned nanowire gate}.
+
+
+
 Podsumowując, z powodów tutaj przedstawionych wynika, że technologia grafenu ma większą szansę zaistnieć 
 w wysokoczęstotliwościowych zastosowaniach analogowych. Dodatkowe argumenty potwierdzające tą tezę znajdują się 
 w kolejnej części, mówiącej o czysto fizycznych aspektach stosowania grafenu do produkcji urządzeń elektronicznych.
 
 	\section{Tranzystor FET z kanałem grafenowym}
 		\subsection{Podstawy fizyczne działania}	
-			Opis zasady działania, dla grafenu.
+	W szerokich paskach grafenowych może istnieć wile pojedynczych kanałów przewodnictwa. Transport przez te kanały
+	jest proporcjonalnie zmniejszany względem długości całego paska. Szerokość natomiast ma wpływ na wzrost liczby
+	dostępnych kanałów. Zakładając, że mówimy tutaj o sytuacji, w której znajdujemy się w pobliżu punktów Diraca.
+	Można napisać, że:
+
+	\begin{equation}
+    		\mathrm{ G \sim \frac{e^2}{h}\frac{W}{L} }
+		\label{equ:G}
+	\end{equation}
+	Gdzie W-szerokość paska grafenowego, L-jego długość. Wzór \ref{equ:G}, pochodzi z \footnote{http://arxiv.org/abs/cond-mat/0603315}.
+	Ta zależność prowadzi do wniosku, że przewodność skaluje się tutaj tak jak w przypadku funkcji przewodnictwa w 
+	metalach dyfuzyjnych. 
+
+
+		\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.90\textwidth]{./Rozdzial_3/obrazki/zasadadzialania.jpg}
+	\caption{Zasada działania tranzystora grafenowego}
+	\label{fig:MOSFET_dzialanie}
+	\end{figure}
+
+DOKŁADNY OPIS TEGO OBRAZKA TERAZ!!!!!!!
+	
+	Zależność koncentracji od napięcia bramkowego jest liniowa, a koncentracja wiąże się również liniowo z 
+	przewodnictwem\footnote{http://jpsj.ipap.jp/link?JPSJ/71/1318/}. Co zostało zaprezentowane w poprzednim rozdziale.
+	 Z tego wynika, że zależność przewodności jest liniową funkcją napięcia bramkowego co zostało pokazane empirycznie
+	np. przez \footnote{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1180777/}.
+	Jedynym miejscem, gdzie nie jest to prawdą jest okolica występowania minima przewodnictwa. Jest to związane, ze 
+	zmianą typów nośników. 
+
+	
+	
+
+
+
 		\subsection{Najważniejsze właściwości}
 			\paragraph{Ruchliwość}
-			\paragraph{Przerwa energetyczna}
-			\paragraph{Definicje najważniejszych parametrów}
-		\subsection{Omówienie charakterystyk elektrycznych}
 
+
+	Jest to najczęściej podawana zaleta grafenu. Zwłaszcza zdolność do jej zachowania nawet w temperaturach 
+	pokojowych, co zostało omówione w poprzednim rozdziale, wraz z podaniem jej wartości dla poszczególnych 
+	przypadków grafenu na różnych podłożach.
+	Wysokie wartości osiąganych ruchliwości w tym materiale robią duże nadzieje na znalezienie dla tego materiału
+	odpowiedniego zastosowania. 
+	
+	Problemem jest tutaj to, że tak duże wartości są osiągane dla dużych próbek grafenu, które z kolei nie posiadają 
+	przerwy energetycznej. Jest to znaczna wada, co zostało wykazane w poprzednim podpunkcie. 
+			\paragraph{Przerwa energetyczna}
+
+
+	Jak zostało wspomniane przerwa energetyczna jest bardo pożądaną własnością. Powody zostały przedstawione na początku
+	tego rozdziału. Istnieją metody takiej inżynierii grafenu, zdolne wytworzyć przerwę energetyczną w grafenie. 
+	Jednak skutkuje to bardzo znacznym zmniejszeniem ruchliwości, czyli głównej zalety tego materiału.
+	Mówiąc bardziej ilościowo, dla metody stosowania tak zwanych nanowstążek grafenowych ruchliwości wynoszą około 
+	200 $\mathrm{\frac{cm^2}{V s}}$, co jest wielkością o trzy rzędy większości mniejszą niż w grafenie pochodzącym
+	z eksfoliacji, o dużo większej powierzchni. \footnote{tutaj odnośniki z 1 rozdziału}
+
+Dlatego podsumowując najlepiej było by opracować taką technologię, która wymaga wysokiej ruchliwości i nie wymaga posiadania
+przerwy energetycznej. Zamiast przystosowywać ten materiału do znanych nam obecnie technologii. Dlatego w dalszym ciągu
+ewentualne zastosowania w przemyśle pozostają kwestią otwartą.
+
+
+
+		\subsection{Omówienie charakterystyk elektrycznych}
+			\paragraph{Ogólny wygląd}
+
+	\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.90\textwidth]{./Rozdzial_3/obrazki/charakterystykaPrzej}
+	\caption{Wygląd typowej charakterystyki przejściowej tranzystora GFET}
+	\label{fig:GFET_trans} 
+	\end{figure}
+
+Pierwszą i mającą w zasadzie największe znaczenie dla wyznaczania najważniejszych parametrów charakteryzujących tranzystory 
+jest charakterystyka przejściowa. Charakterystyka przejściowa zbierana jest, gdy mierzony jest prąd płynący przez kanał, 
+przy stałym napięciu dren-źródło w funkcji napięcia bramkowego. Często prąd zamieniany jest na wielkość zapewniającą
+bardziej obiektywny wgląd w faktyczne zmiany właściwości materiału jaką jest przewodność, ewentualnie rezystywność. 
+Taka typowa charakterystyka została przedstawiona na obrazku \ref{fig:GFET_trans}. Jak widać, charakterystyka jest liniowo 
+zależna od napięcia bramkowego, oprócz obszaru w okolicy minimum przewodnictwa. 
+
+
+	\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.90\textwidth]{./Rozdzial_3/obrazki/charakterystykaWyj.jpg}
+	\caption{Wygląd typowej charakterystyki wyjściowej tranzystora GFET}
+	\label{fig:GFET_out} 
+	\end{figure}
+
+Drugim typem charakterystyki jest charakterystyka wyjściowa. Pomiarów tej charakterystyki dokonuje się poprzez 
+Ustawienie stałego napięcia bramkowego i wyznaczeniu prądu dren-źródło w funkcji napięcia dren-źródło. Typowy wygląd 
+charakterystyki dla grafenu został przedstawiony na rysunku \ref{fig:GFET_out}. Tutaj również często zamienia się prąd na
+przewodność lub rezystywność. Ten rodzaj charakterystyki zazwyczaj ma mniejsze znacznie dla charakteryzacji.
+
+\subsection{Proponowane modele transportu}
+W niniejszej pracy zaprezentowano kilka najczęściej proponowanych podjeść do wyznaczania parametrów transportowych urządzeń
+grafenowych. Głównym parametrem wyznaczanym dla tych urządzeń jest ruchliwość. Istnieją co najmniej trzy metody jej 
+wyznaczania. 
+\paragraph{Model Drudego}
+
+Pierwszym z modeli transportu jest model Drudego. Model Drudego zazwyczaj znajduje zastosowanie w opisie metali. Grafen 
+jest półmetalem dlatego istnieją przesłanki do jego stosowania. Model ten opiera się na kinetycznej teorii gazów, gdzie
+zamiast gazu mamy do czynienia z tak zwanym gazem elektronowym. Elektrony tak jak molekuły gazu poruszają się chaotycznie
+zderzając się z jonami sieci krystalicznej. Po przyłożeniu pola elektrycznego powstaje kolektywny ruch w kierunku działania 
+pola, który jest nałożony na te chaotyczne drgania termiczne. 
+W ogólności można zapisać:
+
+\begin{equation}
+    \mathrm{ \vec J =q n_{ind} \mu_{Drude} \vec E }
+\end{equation}
+
+Z tego równania na gęstość prądu można po prostych przekształceniach otrzymać równanie używane do określenia ruchliwości 
+dla próbek grafenowych:
+
+\begin{equation}
+   \mathrm{ \sigma = C_{ox}} V_G\mathrm{ \mu_{Drude}}
+	\label{equ:przewodnoscDrudego}
+\end{equation}
+
+Gdzie C$_{ox}$-gęstość powierzchniowa pojemności, opisana wzorem:
+\begin{equation}
+   \mathrm{C_{ox}= \frac {\epsilon_o \epsilon_r}{d_{ox}}}
+\end{equation}
+
+Dzięki temu funkcja przewodności $\sigma$, zależy tylko od jednego parametru w sposób liniowy. To znaczy od napięcia
+bramkowego $V_G$. Mając takie opis matematyczny i dysponując zmierzonymi charakterystykami przejściowymi, wyznaczenia
+ruchliwości dokonuje się dopasowywyjąc zmierzoną przewodność do tej oczekiwanej. Parametrem dopasowywanym jest oczywiście
+ruchliwość, ponieważ inne zmienne występujące w równaniu \ref{equ:przewodnoscDrudego}, są albo znane.
+
+Dla tego modelu donosi się o wysokich ruchliwościach przy wysokiej koncentracji nośników. \footnote{1,17 model tr. gr.}
+
+\paragraph{Model stałej ruchliwości}
+Model zakładający stałą ruchliwość nośników w grafenie, niezależnej od koncentracji, zaproponowany został przez 
+\footnote{S. Adam, E. H. Hwang, and S. Das Sarma, Physica E 40, 1022 (2008).}. 
+Dzięki takim założeniom można zapisać wzór na opór elektryczny próbki jako :
+
+\begin{equation}
+    \mathrm{ R_{całkowite} = 2R_{kontakt}+ \frac{L}{W}\frac{1}{\mu \sqrt{e^2 n_o + C_{ox}^2(V_G-V_{Dirac}^2)}}}
+	\label{equ:stalaRuch}
+\end{equation}
+
+W przypadku równania \ref{equ:stalaRuch} również dopasowywuje się to równanie do danych eksperymentalnych. Parametrami
+dopasowania są w tym przypadku: R$_{kontatkt}$-będące opornością kontaktów, stałą ruchliwość $\mu$  i koncentrację nośników
+n$_o$.
+
+\paragraph{Model ruchliwości Halla}
+Ta metoda wyznaczania ruchliwości jest również często stosowana, choć wymaga ona dodatkowego sprzętu laboratoryjnego. 
+Przedstawiając w sposób najprostszy polega ona na wyznaczaniu zależności oporu przy stałych napięciach bramkowych
+w obecności zmiennych pól magnetycznych. 
+
+Ta metoda nie znalazła zastosowania w niniejszej pracy. Dlatego nie zostanie ona opisana dokładniej.
+
+\paragraph{Metoda techniczna (to jest chyba do zmiany!)}
+Istnieje jeszcze metoda wykorzystująca ogólny model tranzystora FET. Opisany równaniem \ref{equ:prad_drenu}, gdzie po 
+prostych przekształceniach i założeniu, że znajdujemy się w liniowym obszarze charakterystyki przejsciowej, można napisać:
+
+\begin{equation}
+    \mathrm{ \mu_{FE} = \frac{L}{W}\frac{g_m}{C_{ox}V_{DS}}}
+\end{equation}
+\begin{equation}
+    \mathrm{ g_m = \frac{d I_D}{d V_G} |_{ V_{DS}=const}}
+\end{equation}
+
+	\section{Najnowsze technologie tranzystorów grafenowych}
 
 	\section{Proces produkcji tranzystorów z kanałem grafenowym}
 		\subsection{Struktury tranzystorów}
