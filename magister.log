@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  7 AUG 2013 13:56
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.5.6)  8 AUG 2013 15:24
 entering extended mode
  %&-line parsing enabled.
 **magister.tex
@@ -500,6 +500,26 @@ Package: wrapfig 2003/01/31  v 3.6
 (/usr/share/texmf-texlive/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen126
+\captionmargin@=\dimen127
+\captionwidth=\dimen128
+\caption@indent=\dimen129
+\caption@parindent=\dimen130
+\caption@hangindent=\dimen131
+)
+\c@ContinuedFloat=\count122
+Package caption Info: wrapfig package is loaded.
+)
+(/usr/share/texmf-texlive/tex/latex/caption/subcaption.sty
+Package: subcaption 2008/08/31 v1.0b Adding subcaptions (AR)
+\c@subfigure=\count123
+\c@subtable=\count124
+)
 (/usr/share/texmf-texlive/tex/latex/fncychap/fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \RW=\skip52
@@ -510,7 +530,7 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip57
 \pxx=\skip58
 \backskip=\skip59
-))
+)
 (/usr/share/texmf-texlive/tex/latex/sfmath/sfmath.sty
 Package: sfmath 2007/08/27 v0.8 sans serif maths
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -575,7 +595,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/lmss/bx/n --> OT1/cmss/bx/n on input line 459.
 LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
 (Font)                  OT1/cmss/m/sl --> OT1/cmss/m/sl on input line 466.
-) (./magister.aux
+)) (./magister.aux
 (./Dedykacja/dedication.aux) (./Rozdzial_1/chapter1.aux)
 (./Rozdzial_2/chapter2.aux) (./Rozdzial_3/chapter3.aux)
 (./Rozdzial_4/chapter4.aux) (./Rozdzial_5/chapter5.aux))
@@ -650,17 +670,20 @@ driver: dvips
 -----------------------
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen126
+\scratchcounter=\count125
+\scratchdimen=\dimen132
 \scratchbox=\box29
-\nofMPsegments=\count123
-\nofMParguments=\count124
+\nofMPsegments=\count126
+\nofMParguments=\count127
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen127
-\MPnumerator=\count126
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen133
+\MPnumerator=\count129
 \everyMPtoPDFconversion=\toks32
-) (./Strona_tytulowa/title.tex
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (./Strona_tytulowa/title.tex
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -831,31 +854,63 @@ teral_mosfet.png (PNG copy)>] [19 <./Rozdzial_3/obrazki/Charakterystyki_FET.png
 <./Rozdzial_3/obrazki/zasadadzialania.jpg, id=106, 677.53125pt x 248.42813pt>
 File: ./Rozdzial_3/obrazki/zasadadzialania.jpg Graphic file (type jpg)
 
-<use ./Rozdzial_3/obrazki/zasadadzialania.jpg> [21]
-<./Rozdzial_3/obrazki/charakterystykaPrzej.jpg, id=110, 456.20438pt x 315.42844
+<use ./Rozdzial_3/obrazki/zasadadzialania.jpg> [21] [22 <./Rozdzial_3/obrazki/z
+asadadzialania.jpg>] [23]
+<./Rozdzial_3/obrazki/charakterystykaPrzej.jpg, id=116, 456.20438pt x 315.42844
 pt>
 File: ./Rozdzial_3/obrazki/charakterystykaPrzej.jpg Graphic file (type jpg)
- <use ./Rozdzial_3/obrazki/charakterystykaPrzej.jpg> [22 <./Rozdzial_3/obrazki/
-zasadadzialania.jpg>]
-<./Rozdzial_3/obrazki/charakterystykaWyj.jpg, id=114, 452.4403pt x 326.72063pt>
+ <use ./Rozdzial_3/obrazki/charakterystykaPrzej.jpg>
+<./Rozdzial_3/obrazki/charakterystykaWyj.jpg, id=117, 452.4403pt x 326.72063pt>
 File: ./Rozdzial_3/obrazki/charakterystykaWyj.jpg Graphic file (type jpg)
-<use ./Rozdzial_3/obrazki/charakterystykaWyj.jpg> [23 <./Rozdzial_3/obrazki/cha
-rakterystykaPrzej.jpg>] [24 <./Rozdzial_3/obrazki/charakterystykaWyj.jpg>]
+<use ./Rozdzial_3/obrazki/charakterystykaWyj.jpg> [24 <./Rozdzial_3/obrazki/cha
+rakterystykaPrzej.jpg>] [25 <./Rozdzial_3/obrazki/charakterystykaWyj.jpg>]
 
-LaTeX Warning: Command \l invalid in math mode on input line 282.
+LaTeX Warning: Command \l invalid in math mode on input line 321.
 
 Missing character: There is no ª in font cmss8!
-[25]) [26]
+[26] [27]
+<./Rozdzial_3/obrazki/TypuBudowa.jpg, id=131, 855.195pt x 183.68625pt>
+File: ./Rozdzial_3/obrazki/TypuBudowa.jpg Graphic file (type jpg)
+
+<use ./Rozdzial_3/obrazki/TypuBudowa.jpg> [28 <./Rozdzial_3/obrazki/TypuBudowa.
+jpg>] <./Rozdzial_3/obrazki/AFMCVD.png, id=135, 456.70625pt x 394.47375pt>
+File: ./Rozdzial_3/obrazki/AFMCVD.png Graphic file (type png)
+
+<use ./Rozdzial_3/obrazki/AFMCVD.png>
+<./Rozdzial_3/obrazki/RAMAN.png, id=136, 456.70625pt x 342.27875pt>
+File: ./Rozdzial_3/obrazki/RAMAN.png Graphic file (type png)
+
+<use ./Rozdzial_3/obrazki/RAMAN.png>
+<./Rozdzial_3/obrazki/RAMANodniesienie.png, id=137, 329.23pt x 146.5475pt>
+File: ./Rozdzial_3/obrazki/RAMANodniesienie.png Graphic file (type png)
+
+<use ./Rozdzial_3/obrazki/RAMANodniesienie.png> [29 <./Rozdzial_3/obrazki/AFMCV
+D.png> <./Rozdzial_3/obrazki/RAMAN.png (PNG copy)>] [30 <./Rozdzial_3/obrazki/R
+AMANodniesienie.png>]
+<./Rozdzial_3/obrazki/Probka.png, id=146, 264.99pt x 264.99pt>
+File: ./Rozdzial_3/obrazki/Probka.png Graphic file (type png)
+
+<use ./Rozdzial_3/obrazki/Probka.png>
+<./Rozdzial_3/obrazki/20130521-g32.jpg, id=147, 413.545pt x 299.1175pt>
+File: ./Rozdzial_3/obrazki/20130521-g32.jpg Graphic file (type jpg)
+
+<use ./Rozdzial_3/obrazki/20130521-g32.jpg>
+<./Rozdzial_3/obrazki/20130521-g32faza.jpg, id=148, 400.49625pt x 299.1175pt>
+File: ./Rozdzial_3/obrazki/20130521-g32faza.jpg Graphic file (type jpg)
+
+<use ./Rozdzial_3/obrazki/20130521-g32faza.jpg> [31 <./Rozdzial_3/obrazki/Probk
+a.png> <./Rozdzial_3/obrazki/20130521-g32.jpg> <./Rozdzial_3/obrazki/20130521-g
+32faza.jpg>]) [32]
 \openout2 = `./Rozdzial_4/chapter4.aux'.
 
  (./Rozdzial_4/chapter4.tex
 Rozdzia\l  3.
 
-Overfull \hbox (4.38255pt too wide) in paragraph at lines 4--4
+Overfull \hbox (4.38255pt too wide) in paragraph at lines 5--5
 \T1/phv/b/n/17.28 rów gra-fe-no-wych wy-sta-wio-nych na dzia-ªa-nie at-mos-
  []
 
-) [27
+) [33
 
 
 
@@ -864,7 +919,7 @@ Overfull \hbox (4.38255pt too wide) in paragraph at lines 4--4
 
  (./Rozdzial_5/chapter5.tex
 Rozdzia\l  4.
-) [28
+) [34
 
 
 
@@ -872,7 +927,7 @@ Rozdzia\l  4.
 \tf@lot=\write4
 \openout4 = `magister.lot'.
 
- [29
+ [35
 
 
 
@@ -882,19 +937,19 @@ Rozdzia\l  4.
 
 
 No file magister.bbl.
-[30
+[36
 
 ] (./magister.aux (./Dedykacja/dedication.aux) (./Rozdzial_1/chapter1.aux)
 (./Rozdzial_2/chapter2.aux) (./Rozdzial_3/chapter3.aux)
 (./Rozdzial_4/chapter4.aux) (./Rozdzial_5/chapter5.aux)) ) 
 Here is how much of TeX's memory you used:
- 5360 strings out of 495027
- 75704 string characters out of 1181826
- 257450 words of memory out of 3002000
- 8347 multiletter control sequences out of 15000+50000
- 70721 words of font info for 75 fonts, out of 3000000 for 9000
+ 6389 strings out of 495027
+ 94788 string characters out of 1181826
+ 283659 words of memory out of 3002000
+ 9360 multiletter control sequences out of 15000+50000
+ 73611 words of font info for 77 fonts, out of 3000000 for 9000
  48 hyphenation exceptions out of 8191
- 34i,12n,35p,427b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,12n,38p,427b,467s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fon
 ts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.en
 c}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-texlive/
@@ -907,9 +962,9 @@ f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
 ts/type1/public/lm/lmsy8.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic
 /uhvb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
 /share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on magister.pdf (35 pages, 1372881 bytes).
+Output written on magister.pdf (41 pages, 2558094 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 210 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 14919 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 15466 words of extra memory for PDF output out of 17280 (max. 10000000)
 

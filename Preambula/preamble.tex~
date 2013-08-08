@@ -23,6 +23,8 @@
 
 \renewcommand{\rmdefault}{phv} % Arial
 \renewcommand{\sfdefault}{phv} % Arial
-\usepackage[cm]{sfmath}
+\usepackage[cm]{sfmath}	%arial w matematyce
 %\setmathsf{Arial}
 %\setmathtt{Arial}
+
+\setcounter{tocdepth}{4} %UStawienie głębokości spisu treści, 4=widoczne paragrafy

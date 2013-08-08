@@ -22,7 +22,6 @@ eksperymentalnymi. Co zostanie opisane w następnym rozdziale. Na koniec zostani
 wytwarzania takiego tranzystora.
 
 
-
 	\section{Tranzystor FET}
 Nazwa tego typu urządzenia pochodzi od angielskiego \textit{Field Effect Transistor}. Ze względu na największe
 podobieństwo konstrukcji tranzystorów grafenowych do tranzystorów polowych typu MOSFET (\textit{ Metal-Oxide-Semi
@@ -142,7 +141,10 @@ w wysokoczęstotliwościowych zastosowaniach analogowych. Dodatkowe argumenty po
 w kolejnej części, mówiącej o czysto fizycznych aspektach stosowania grafenu do produkcji urządzeń elektronicznych.
 
 	\section{Tranzystor FET z kanałem grafenowym}
-		\subsection{Podstawy fizyczne działania}	
+		\subsection{Podstawy fizyczne działania}
+
+
+	
 	W szerokich paskach grafenowych może istnieć wile pojedynczych kanałów przewodnictwa. Transport przez te kanały
 	jest proporcjonalnie zmniejszany względem długości całego paska. Szerokość natomiast ma wpływ na wzrost liczby
 	dostępnych kanałów. Zakładając, że mówimy tutaj o sytuacji, w której znajdujemy się w pobliżu punktów Diraca.
@@ -164,7 +166,6 @@ w kolejnej części, mówiącej o czysto fizycznych aspektach stosowania grafenu
 	\label{fig:MOSFET_dzialanie}
 	\end{figure}
 
-DOKŁADNY OPIS TEGO OBRAZKA TERAZ!!!!!!!
 	
 	Zależność koncentracji od napięcia bramkowego jest liniowa, a koncentracja wiąże się również liniowo z 
 	przewodnictwem\footnote{http://jpsj.ipap.jp/link?JPSJ/71/1318/}. Co zostało zaprezentowane w poprzednim rozdziale.
@@ -174,13 +175,40 @@ DOKŁADNY OPIS TEGO OBRAZKA TERAZ!!!!!!!
 	zmianą typów nośników. 
 
 	
+	Tranzystory grafenowe mają bardzo interesujące i niespotykane charakterystyki przejściowe. Przykład takiej 
+	charakterystyki znajduje się na rysunku \ref{fig:GFET_trans}. Typ nośników jak również ich koncentracja
+	zależą od napięcia pomiędzy bramką a kanałem. Dla dużych napięć ujemnych obserwujemy akumulację dziur w kanale
+	i w tym obszarze charakterystyka świadczy, o kanale typu p. Duże napięcia dodatnie na bramce prowadzą do akumulacji
+	elektronów w kanale i dla tego obszaru charakterystyka wskazuje na kanał typu n.
+	
+	Taki mechanizm powoduje powstanie dwóch niezależnych obszarów w charakterystyce przejściowej, które rozdzielone są
+	punktem minimalnego przewodnictwa, punktem Diraca. Położenie tego punktu na charakterystyce zależy od wielu 
+	czynników. Po pierwsze od różnicy pracy wyjścia materiału bramki i grafenu, co można zobaczyć na obrazku 
+	\ref{fig:MOSFET_dzialanie}, czyli od konstrukcji samego urządzenia. Bardzo ważnym czynnikiem jest również 
+	wszelkie domieszkowanie kanału. Wpływ na domieszkowanie mają defekty strukturalne jak również wszelkie 
+	zanieczyszczenia, powstałe w skutek ekspozycji na powietrze, lub domieszkowanie celowe. Innym ważnym czynnikiem 
+	jest też koncentracja i typ ładunków na interfejsach dolnych, i górnych (np. dla urządzenia typu top-gate).
 	
 
 
+	Jak widać na rysunku \ref{fig:MOSFET_dzialanie}, zmieniając napięcie bramkowe zmieniamy położenie 
+	poziomu Fermiego w kanale. Zmieniając ten poziom sterujemy gęstością stanów poszczególnych nośników 
+	Dlatego zwiększając napięcie obserwujemy wzrost koncentracji elektronów w kanale i spadek koncentracji dziur.
+	Wtedy kanał staje się typu n. Natomiast, gdy zmniejszamy napięcie bramkowe, obniżamy ten poziom a wraz z nim
+	koncentrację elektronów i tym samym zwiększamy koncentrację dziur. Takie zachowanie wynika wprost ze struktury
+	pasmowej grafenu, a zwłaszcza z obszaru styku pasm przewodnictwa i walencyjnego, tak zwanych stożków Diraca, 
+	o których była mowa w poprzednim rozdziale. 
+
+	Ważne jest by zauważyć iż gęstość stanów jest zależna w sposób liniowy od napięcia bramkowego, co znowu wynika
+	ze struktury pasmowej tego materiału. Gęstość stanów ma bezpośredni wpływ na koncentrację, a od koncentracji
+	w sposób również liniowy zależy przewodność kanału. Podsumowując napięcie bramkowe steruje w sposób liniowy
+	przewodnością kanału. Dodatkowo polaryzacja napięcia ma wpływ na typ akumulowanego ładunku w kanale i tym samym
+	na jego typ (n lub p).
+	
 
 		\subsection{Najważniejsze właściwości}
 			\paragraph{Ruchliwość}
-
+%\addcontentsline{toc}{subsection}{Ruchliwość} To jest teraz nie potrzebne już
 
 	Jest to najczęściej podawana zaleta grafenu. Zwłaszcza zdolność do jej zachowania nawet w temperaturach 
 	pokojowych, co zostało omówione w poprzednim rozdziale, wraz z podaniem jej wartości dla poszczególnych 
@@ -204,10 +232,21 @@ Dlatego podsumowując najlepiej było by opracować taką technologię, która w
 przerwy energetycznej. Zamiast przystosowywać ten materiału do znanych nam obecnie technologii. Dlatego w dalszym ciągu
 ewentualne zastosowania w przemyśle pozostają kwestią otwartą.
 
-
+\paragraph{Dwuwymiarowość}
+	Powołując się na teorię skalowania tranzystorów typu MOSFET\footnote{Robert Dennard 1974}, 
+	dostatecznie cienki obszar kanału pozwoliłby 
+	na skalowanie długości bramki do bardzo małych rozmiarów. Co z kolei zapewniłoby wzrost częstotliwości odcięcia
+	i poprawiło parametry takiego tranzystora w porównaniu do innych. Dwuwymiarowa postać grafenu zapewnia najmniejszą
+	grubość kanału jaka w ogóle jest możliwa do osiągnięcia. Dlatego wedle tej teorii tranzystory grafenowe powinny się
+	łatwiej skalować od tych opartych na materiałach trójwymiarowych. Oczywiście należy zauważyć, iż ta teoria dotyczy 
+	tylko półprzewodników, a grafen jest półmetalem i taki kanał nie posiada przerwy energetycznej. Jednak
+	 nanowstążki wykazują taką przerwę zatem dla nich ta teoria powinna być prawdziwa. Jednak jak już wspomniano
+	w przypadku nanowstążek obserwowane ruchliwości są znacznie mniejsze niż dla grafenu masywnego. Być może okaże się,
+	że dzięki możliwości skalowania takich nanowstążkowych tranzystorów wzrośnie znacznie szybkość ich przełączania. 
+	Co w połączeniu z możliwością ich wyłączenia stanie się podstawą do stosowania ich w układach logicznych, gdzie
+	te właściwości są najbardziej decydujące, a ruchliwość ma znaczenie drugorzędne. 
 
 		\subsection{Omówienie charakterystyk elektrycznych}
-			\paragraph{Ogólny wygląd}
 
 	\begin{figure}[ht]
 	\centering
@@ -315,8 +354,157 @@ do oszacowania ruchliwości.
 
 	\section{Najnowsze technologie tranzystorów grafenowych}
 
+	Typowe schematy budowy tranzystorów grafenowych zostały przedstawiona na rysuku \ref{fig:MOSFET_struktury}. 
+	Widoczne są tutaj dwa najczęściej stosowane podłoża, to znaczy podłoże krzemowe i podłoże węglika krzemu.
+	Jak widzimy najmniej skomplikowanym schematem jest pierwszy od lewej, czyli tak zwany bottom-gate. 
+	Gdzie rolę bramki pełni podłoże krzemowe domieszkowane w odpowiedni sposób. Tranzystory tego typu 
+	pojawiły się już na samym początku badania grafenu w roku 2004. Jednak ich zaleta, to znaczy prostota, znacznie
+	ogranicza ich stosowanie w jakimś praktycznym zastosowaniu. Wystarczy tutaj tylko wspomnieć, że duża wielkość
+	bramki i jej duża pojemność powodują, niską częstotliwość odcięcia. Niemniej taki typ budowy wciąż jest 
+	stosowany w badaniach transportowych właśnie ze względu na swoją prostotę i to, że pozwala obserwować topografię
+	grafenu np. przy pomocy mikroskopii AFM co jest niezbędne w niektórych badaniach.
+
+	Drugim typem budowy jest top-gate, gdzie na kanale nałożony jest materiał dielektryczny, na którym została napylony
+	elektryczny kontakt bramki. Taka budowa tranzystora jest znacznie bardziej zbliżona do dzisiaj stosowanych co 
+	pozwala na łatwiejsze porównywanie takich tranzystorów z obecnie produkowanymi. Zwłaszcza w kwestii długości bramki
+	w odniesieniu do częstotliwości odcięcia. Często pozostawia się dodatkowo dolną bramkę służącą porównaniu 
+	osiągnięć dla każdej z nich, lub badaniu wpływowi dielektryka na własności transportowe. Tylnia bramka okazuje się
+	być również niezwykle przydatna w czasie procesu produkcji.Pozwala stwierdzić, czy kontakty
+	drenu i źródła są odpowiednio nałożone, czy tranzystor reaguje już na napięcie bramkowe.
+	Problemem tego typu tranzystorów bywa wpływ nałożenia dielektryka na zmniejszenie się ruchliwości. Minimalizacja
+	tego problemu jest wciąż obiektem badań.
+
+	Ostatnim najczęściej spotykana koncepcja  tranzystora jest oparta o grafen otrzymany z węgliku krzemu. Ważne jest,
+	że węglik krzemu w ogólności jest przewodzący, dlatego należy stosować jego wersję półprzewodzącą. Zwiększa to 
+	koszt produkcji jednak pozwala w ogóle takim tranzystorom działać. Z tego też względu jedyną bramką jest bramka
+	górna. Znowu ten rodzaj tranzystora jest podobny do obecnie wytwarzanych i w tym przypadku nie odbiega zbytnio swoją
+	koncepcją od poprzedniego. Tutaj również istnieje problem pogorszenia parametrów kanału po nałożeniu dielektryka 
+	bramkowego.
+
+Największe nadzieje wiązane są ze strukturami top-gate. Przede wszystkim ze względu na większe możliwości miniaturyzacji i 
+lepszej optymalizacji bramki. Co ma wpływ na szybkość tranzystora. Częstotliwość odcięcia wiąże się z długością bramki jak
+L$^{-1}$, gdzie L jest długością bramki. Ruchliwość również wpływa na szybkość, zwiększając ją. Typowe MOSFET oparte na 
+krzemie wykazują ruchliwości rzędu 100 $\mathrm{\frac{cm^{2}}{Vs}}$, struktury typu pHEMT oparte o arsenek galu 6 000
+$\mathrm{\frac{cm^{2}}{Vs}}$, natomiast te oparte o fosforek indu 10 000 $\mathrm{\frac{cm^{2}}{Vs}}$
+\footnote{Chodzi tutaj o tak zwane ruchliwości efektu polowego dla gotowych już urządzeń}.
+Przy coraz mniejszych długościach bramki ruchliwość przestaje mieć duże znaczenie na szybkość tranzystora i większy wpływ
+zaczynają mieć efekty związane z impedancjami pasożytniczymi i efekty krótkiego kanału. 
+Co prawda tranzystory grafenowe są wciąż gorsze niż konwencjonalne tranzystory pracujące w wysokich częstotliwościach. To
+jednak już wyprzedziły swoimi parametrami te oparte o krzem i powoli zbliżają się do struktur opartych o arsenek galu.
+Donosi się o tranzystorze opartym na nanowstążce grafenu, pokrytej dielektrykiem HfO$_2$ (dielektryk o wysokiej stałej 
+dielektrycznej), który w temperaturze pokojowej osiągnął stosunek prądów wł/wył wynoszącą 70 i niesamowitą transkonduktancję
+wynoszącą 3,2 $\mathrm{mS}{\mu m}$ (co jest lepszym wynikiem niż najlepsze tranzystory krzemowe MOSFET i HEMT oparte na 
+arsenku galu ). \footnote{ref 82 z tr. gr. review}
+	
+
+	\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1.00\textwidth]{./Rozdzial_3/obrazki/TypuBudowa}
+	\caption{Spotykane struktury tranzystorów grafenowych}
+	\label{fig:MOSFET_struktury}
+	\end{figure}
+
 	\section{Proces produkcji tranzystorów z kanałem grafenowym}
-		\subsection{Struktury tranzystorów}
-		\subsection{Metoda produkcji tranzystorów}
-			\paragraph{Opis metodologii}
-			\paragraph{Zdjęcia optyczne}
+
+W tej części zostanie opisany proces otrzymywania tranzystorów z transferowanego grafenu CVD, na podłoże krzemowe, o
+ strukturze bottom-gate. Ze względu na to, iż dokładny opis wszystkich etapów takiej produkcji byłby bardzo obszerny, 
+zostanie on tutaj przedstawiony w lakonicznej formie. Będzie on dotyczył metodologii otrzymania tranzystorów, które
+zostały poddane charakteryzacji, a jej wyniki posłużyły jako dane eksperymentalne dla poniższej pracy dyplomowej.
+
+\subsection{Produkcja grefenu i transfer}
+Ten etep w zasadzie został już opisany przy okazji opisu samej metody CVD. Z tego też względu należy w zasadzie tylko
+dodać, że grubość SiO$_2$ wynosiła 300nm. Próbki zostały zakupione od firmy Graphenea. Próbki przed dalszymi
+etapami produkcji zostały poddane charakteryzacji. Polegała ona na wykonaniu skanu topografii mikroskopem sił atomowym
+i spektroskopii Ramana.
+
+
+
+\begin{figure}[ht]
+        \centering
+        \begin{subfigure}[b]{0.48\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{./Rozdzial_3/obrazki/AFMCVD}
+                \caption{Mapa topografii AFM}
+                \label{fig:AFMCVD}
+        \end{subfigure}%
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{0.48\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{./Rozdzial_3/obrazki/RAMAN}
+                \caption{Widma Ramanowskie grafenu}
+                \label{fig:RamanCVD}
+        \end{subfigure}
+\end{figure}
+
+Mapa topografii wskazuje na wysoką czystość próbki, jako, że wysokość na próbce waha się jedynie w granicach 0--30 nm.
+Otrzymane widma Ramana wskazują na dobrą jakość strukturalną grafenu. Porównując je z wykresem pochodzącym z literatury
+staje się jasne, że mamy do czynienia z jedną warstwą grafenową \footnote{Raman spectroscopy in graphene, 
+Physics Reports, vol. 473, no. 5–6, pp. 51–87, Apr. 2009.}, rysunek \ref{fig:RamanCVDLiteratura}.
+
+	\begin{figure}[ht]
+	\centering
+	\includegraphics[width=.60\textwidth]{./Rozdzial_3/obrazki/RAMANodniesienie}
+	\caption{Wykres przykładowego widma Ramana }
+	\label{fig:RamanCVDLiteratura}
+	\end{figure}
+\subsection{Nałożenie kontaktów drenu i źródła}
+	Kolejnym krokiem w procesie produkcji było nałożenie kontaktów elektrycznych dla drenu i źródła. W celu
+optymalizacji struktury postanowiono wykorzystać jeden wspólny kontakt dla wszystkich tranzystorów, stanowiący źródło. 
+
+Proces wytwarzania kontaktów rozpoczyna się od nałożenia przy pomocy spin-coatera rezystu. Następnie rezyst zostaje 
+naświetlony przy pomocy wcześniej zaprojektowanej maski. W taki sposób by po wywołaniu wytworzyły się zagłębienia, 
+stanowiące formy dla przyszłych elektrod. 
+Następnym krokiem jest napylenie na całą powierzchnię próbki metalu, tworzącego elektrody. Do usunięcia zbędnych obszarów
+z nałożonego metalu używa się metody lift-off. Polega ona na zanurzeniu próbki w rozpuszczalniku pozostałego rezystu i 
+poddaniu próbki działania ultradźwięków.
+Dzięki temu otrzymujemy pożądany wzór elektrod na powierzchni próbki.
+
+Oczywiście nie jest to metoda idealna ze względu chociażby na wytworzenie się "uszu" na krawędziach elektrod. Jest to
+o tyle niebezpieczne, że taka wysoka cienka krawędź może opaść i wytworzyć zwarcie, zwłaszcza, gdy elektrody znajdują 
+się w bardzo bliskich odległościach. Innym często spotykanym problemem jest gdy mimo wypłukania rezystu spod warstwy 
+metalu ten dalej się utrzymuje. Zazwyczaj kończy się to zniszczeniem próbki ze względu na niemożność usunięcia tego
+nadmiaru metalu.
+
+Największą zaletą tej metody jest to, że nie wykorzystuje ona żadnych agresywnych chemikaliów do trawienia. Ma to istotny
+wpływ na utrzymanie jakości badanego grafenu.
+
+\subsection{Wytwarzanie kanału}
+
+W kolejnym kroku należy usunąć nadmiar grafenu, który teraz pokrywa przestrzeń pomiędzy wszystkimi elektrodami. 
+Osiąga się to poprzez wykonanie nałożenie rezystu i wywołaniu go w taki sposób by wytworzył warstwę ochronną nad 
+miejscami, w których pozostać ma grafen. 
+
+Tak przygotowaną próbkę poddaje się trawieniu plazmowemu, otrzymując w zasadzie gotową już próbkę. Wystarczy teraz 
+tylko usunąć resztki ochraniającego rezystu i próbka jest już gotowa.
+
+	\begin{figure}[ht]
+	\centering
+	\includegraphics[width=.65\textwidth]{./Rozdzial_3/obrazki/Probka}
+	\caption{Gotowa próbka}
+	\label{fig:GotowaProbka}
+	\end{figure}
+
+Zdjęcie przedstawione na rysunku \ref{fig:GotowaProbka} przedstawia taką gotową strukturę. W lewym dolnym rogu
+widoczne są markery niezbędna przy naświetlaniu kolejnych masek. Widoczna jest też topografia próbki. 
+Jak widać wszystkie tranzystory zostały wytworzone wzdłuż jeden masywnej elektrody. Ta elektroda stanowi
+umownie źródło. Dreny kolejnych tranzystorów są połączone ze źródłem poprzez kanały grafenowe. 
+
+\begin{figure}[ht]
+        \centering
+        \begin{subfigure}[b]{0.48\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{./Rozdzial_3/obrazki/20130521-g32}
+                \caption{Topografii AFM jednego z kanałów}
+                \label{fig:AFMCVDkanal}
+        \end{subfigure}%
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{0.48\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{./Rozdzial_3/obrazki/20130521-g32faza}
+                \caption{Skan fazowy AFM}
+                \label{fig:AFMCVDkanalfaza}
+        \end{subfigure}
+\end{figure}
+
